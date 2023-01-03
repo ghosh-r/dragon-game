@@ -1,3 +1,13 @@
+def spawn_target x, y
+  {
+    x: x,
+    y: y,
+    w: 128,
+    h: 128,
+    path: 'sprites/target.png'
+  }
+end
+
 def tick args
   args.state.player ||= {
     x: 120,
@@ -9,6 +19,13 @@ def tick args
   }
 
   args.state.fireballs ||= []
+
+  args.state.targets ||= [
+    spawn_target(800, 120),
+    spawn_target(920, 600),
+    spawn_target(1020, 320),
+  ]
+
 
   if args.inputs.left and args.inputs.up
     args.state.player.x -= args.state.player.speed / 2
@@ -70,10 +87,18 @@ def tick args
     }
   end
 
+  args.outputs.sprites << [args.state.player, args.state.fireballs, args.state.targets]
+  args.outputs.labels << args.state.fireballs
+
   args.state.fireballs.each do |fireball|
     fireball.x += args.state.player.speed + 2
+    args.state.targets.each do |target|
+      if args.geometry.intersect_rect?(target, fireball)
+        puts 'fireball hit target!'
+      end
+    end
   end
-
-  args.outputs.sprites << [args.state.player, args.state.fireballs]
-  args.outputs.labels << args.state.fireballs
+  
 end
+
+$gtk.reset

@@ -64,8 +64,8 @@ def tick args
     args.state.fireballs << {
       x: args.state.player.x + args.state.player.w - 12,
       y: args.state.player.y + 10,
-      w: 32,
-      h: 32,
+      w: 64,
+      h: 64,
       path: 'sprites/fireball.png'
     }
   end

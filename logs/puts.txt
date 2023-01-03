@@ -1,0 +1,620 @@
+-> $gtk.reset seed: 1672727562
+=> 0
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+Z is pressed
+-> print(args.state.fireballs)
+=> nil
+-> print(args.state.player_x)
+=> nil
+-> print(args.state.player_x)
+=> nil
+-> print(args.state.fireballs)
+=> nil
+10
+Integer
+10
+Integer
+-> print(args.state.player_y)
+=> nil
+10
+Integer
+-> print(args.state.fireballs)
+=> nil
+
+Array
+270
+400
+fireball
+Array
+270
+400
+fireball
+560
+400
+fireball
+Array
+270
+400
+fireball
+560
+400
+fireball
+720
+270
+fireball
+Array
+270
+400
+fireball
+560
+400
+fireball
+720
+270
+fireball
+470
+270
+fireball
+Array
+270
+400
+fireball
+560
+400
+fireball
+720
+270
+fireball
+470
+270
+fireball
+280
+210
+fireball
+Array
+-> print(args.state.fireballs)
+=> nil

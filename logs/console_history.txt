@@ -1,0 +1,9 @@
+$gtk.grep_source [".speed", '']
+$gtk.reset seed: 1672746983
+$gtk.grep_source [".player", '']
+$gtk.grep_source [".sprites +=", "change the += operator to <<."], [".sprites =", "remove assignment and use <<."], [".sprites +", "change + operator to <<."]
+$gtk.reset seed: 1672724839
+$gtk.reset seed: 1672727562
+print(args.state.player_x)
+print(args.state.player_y)
+print(args.state.fireballs)

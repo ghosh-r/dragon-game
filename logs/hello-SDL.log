@@ -1,0 +1,27 @@
+* 000000 [Engine] Log started at 2023/1/3 18:19:13
+* 000000 [Engine] This copy of the engine is git hash 70cd0b7d234544363972651eca364581f9fe0eb1, built on Nov 12 2022, at 04:34:35
+* 000000 [Engine] Platform: Linux
+* 000000 [Engine] 
+* 000000 [Engine] *******************************************************************************************
+* 000000 [Engine] *** This is the Standard license build!                                                 ***
+* 000000 [Engine] *** Get more with an Indie or Pro license such as C extensions, mobile dev, and VR dev! ***
+* 000000 [Engine] *** Details at http://dragonruby.org/toolkit/game#purchase                              ***
+* 000000 [Engine] *******************************************************************************************
+* 000000 [Engine] 
+! 000000 [Engine] Metadata file does not have all required fields!
+- 000000 [Engine] Game Dir: /home/ritog/coding/ruby-game/dragon-game//mygame
+- 000000 [Engine] Game ID: hello-SDL
+- 000000 [Engine] Game Title: Update metadata/game_metadata.txt in your mygame directory to change this title.
+- 000000 [Engine] Game Version: 1.0
+- 000000 [Engine] Game Package ID: org.dragonruby.hello-SDL
+- 000000 [Engine] Game Developer ID: dragonruby
+- 000000 [Engine] Game Developer Title: DragonRuby LLC
+- 000000 [Engine] Production Build: no
+- 000000 [Engine] Remote Hotload: no
+? 000000 [Engine] Loading cvars from file 'metadata/cvars.txt' ...
+? 000000 [Engine] File 'metadata/cvars.txt' line 1 setting cvar 'log.filter_subsystems' to 'HTTPServer'
+? 000000 [Engine] File 'metadata/cvars.txt' complete
+? 000000 [Engine] RNG seed has been set to 1672750154.
+- 000000 [Engine] Janitor is using 4 threads.
+? 000000 [Engine] Marked app/main.rb for reload. (-1)
+* 000006 [Engine] Logging shutting down

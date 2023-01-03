@@ -1,0 +1,1 @@
+* INFO: The .to_s function for type [GTK::Args] probably doesn't look too helpful. Trying calling the .help function or .docs function. #<GTK::Args:0x1e798b0>

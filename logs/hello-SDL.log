@@ -131,3 +131,145 @@ Source code for these diagnostics can be found at: [[https://github.com/dragonru
 
 
 ? 000124 [Engine] Marked app/main.rb for reload. (7435)
+- 000543 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 65:5: syntax error, unexpected keyword_end
+line 72:3: syntax error, unexpected end of file, expecting keyword_end
+
+
+
+** Backtrace:
+*** app/main.rb:1 (32571)
+- 000544 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 65:5: syntax error, unexpected keyword_end
+line 72:3: syntax error, unexpected end of file, expecting keyword_end
+
+
+
+** Backtrace:
+*** app/main.rb:1 (32631)
+- 000551 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 65:5: syntax error, unexpected keyword_end
+line 72:3: syntax error, unexpected end of file, expecting keyword_end
+
+
+
+** Backtrace:
+*** app/main.rb:1 (33051)
+? 000568 [Engine] Marked app/main.rb for reload. (34071)
+? 000570 [Engine] Marked app/main.rb for reload. (34191)
+- 000574 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 66:5: syntax error, unexpected '}'
+line 73:3: syntax error, unexpected end of file, expecting keyword_end
+
+
+
+** Backtrace:
+*** app/main.rb:1 (34431)
+? 000576 [Engine] Marked app/main.rb for reload. (34551)
+? 000578 [Engine] Marked app/main.rb for reload. (34670)
+? 000581 [Engine] Marked app/main.rb for reload. (34850)
+? 000584 [Engine] Marked app/main.rb for reload. (35030)
+? 000585 [Engine] Marked app/main.rb for reload. (35090)
+- 000587 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 66:5: syntax error, unexpected '}'
+line 73:3: syntax error, unexpected end of file, expecting keyword_end
+
+
+
+** Backtrace:
+*** app/main.rb:1 (35210)
+? 000589 [Engine] Marked app/main.rb for reload. (35330)
+? 000592 [Engine] Marked app/main.rb for reload. (35510)
+? 000596 [Engine] Marked app/main.rb for reload. (35748)
+? 000598 [Engine] Marked app/main.rb for reload. (35868)
+- 000602 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 66:4: syntax error, unexpected '\n'
+line 73:3: syntax error, unexpected end of file, expecting keyword_end
+
+
+
+** Backtrace:
+*** app/main.rb:1 (36108)
+- 000603 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 67:5: syntax error, unexpected '}'
+line 74:3: syntax error, unexpected end of file, expecting keyword_end
+
+
+
+** Backtrace:
+*** app/main.rb:1 (36168)
+? 000605 [Engine] Marked app/main.rb for reload. (36288)
+? 000608 [Engine] Marked app/main.rb for reload. (36468)
+? 000611 [Engine] Marked app/main.rb for reload. (36648)
+? 000614 [Engine] Marked app/main.rb for reload. (36828)
+? 000616 [Engine] Marked app/main.rb for reload. (36948)
+- 000618 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 68:5: syntax error, unexpected '}'
+line 75:3: syntax error, unexpected end of file, expecting keyword_end
+
+
+
+** Backtrace:
+*** app/main.rb:1 (37068)
+- 000619 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 68:5: syntax error, unexpected '}'
+line 75:3: syntax error, unexpected end of file, expecting keyword_end
+
+
+
+** Backtrace:
+*** app/main.rb:1 (37128)
+? 000622 [Engine] Marked app/main.rb for reload. (37308)
+? 000625 [Engine] Marked app/main.rb for reload. (37488)
+- 000628 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 69:4: syntax error, unexpected '\n'
+line 76:3: syntax error, unexpected end of file, expecting keyword_end
+
+
+
+** Backtrace:
+*** app/main.rb:1 (37667)
+? 000633 [Engine] Marked app/main.rb for reload. (37967)
+? 000636 [Engine] Marked app/main.rb for reload. (38147)
+? 000638 [Engine] Marked app/main.rb for reload. (38267)
+- 000701 [Game] Game state and exception will be written to logs/exceptions/game_state_37461.txt and logs/exceptions/current.txt.
+- 000701 [Game] * EXCEPTION:
+* ERROR:
+Integer doesn't look like an Array.
+
+12
+
+Attempted to invoke :+ against something that doesn't look like an Array (it's a(n) Integer). Did you mean to use << instead of :+? The :<< function adds a single item, while the :+ function adds multiple items and expects an Array.
+
+
+** Backtrace:
+*** app/main.rb:74:in tick
+*** app/main.rb:73:in tick
+*** app/main.rb:1 (42033)
+? 000723 [Engine] Marked app/main.rb for reload. (43365)
+? 000727 [Engine] Marked app/main.rb for reload. (43605)
+? 000762 [Engine] Marked app/main.rb for reload. (45705)
+- 000765 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 77:58: syntax error, unexpected ','
+line 77:129: syntax error, unexpected ']', expecting :: or &. or '[' or '.'
+
+
+
+** Backtrace:
+*** app/main.rb:1 (45885)
+? 000768 [Engine] Marked app/main.rb for reload. (46065)
+? 000769 [Engine] Marked app/main.rb for reload. (46125)
+? 000773 [Engine] Marked app/main.rb for reload. (46365)
+? 000778 [Engine] Marked app/main.rb for reload. (46664)
+? 000779 [Engine] Marked app/main.rb for reload. (46724)

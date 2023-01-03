@@ -1,3 +1,4 @@
+$gtk.reset seed: 1672755761
 $gtk.grep_source [".speed", '']
 $gtk.grep_source [".player_w", '']
 $gtk.reset seed: 1672750720

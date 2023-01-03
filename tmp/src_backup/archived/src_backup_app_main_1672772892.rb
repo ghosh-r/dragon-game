@@ -99,9 +99,6 @@ def tick args
       end
     end
   end
-
-  args.state.targets.reject! { |t| t.dead}
-  args.state.fireballs.reject! {|f| f.dead}
   
 end
 

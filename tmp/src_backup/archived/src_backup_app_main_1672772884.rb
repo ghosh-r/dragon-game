@@ -95,13 +95,10 @@ def tick args
     args.state.targets.each do |target|
       if args.geometry.intersect_rect?(target, fireball)
         target.dead = true
-        fireball.dead = true
+        target
       end
     end
   end
-
-  args.state.targets.reject! { |t| t.dead}
-  args.state.fireballs.reject! {|f| f.dead}
   
 end
 

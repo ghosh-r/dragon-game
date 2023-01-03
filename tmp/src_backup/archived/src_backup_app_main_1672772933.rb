@@ -100,8 +100,7 @@ def tick args
     end
   end
 
-  args.state.targets.reject! { |t| t.dead}
-  args.state.fireballs.reject! {|f| f.dead}
+  args.state.targets.reject! {}
   
 end
 

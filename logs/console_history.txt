@@ -1,4 +1,9 @@
 $gtk.reset seed: 1672834821
+$gtk.grep_source [".player_sprite_index", '']
+$gtk.grep_source [".player_sprite", '']
+$gtk.reset seed: 1672834821
+$gtk.grep_source [".arg", '']
+$gtk.reset seed: 1672834821
 $gtk.grep_source [".labels", '']
 $gtk.reset seed: 1672834821
 $gtk.grep_source [".labels", '']

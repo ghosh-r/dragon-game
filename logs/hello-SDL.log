@@ -457,3 +457,257 @@ line 210:10: syntax error, unexpected end of file, expecting keyword_end
 ? 001974 [Engine] RNG seed has been set to 1672834821.
 ? 001989 [Engine] Marked app/main.rb for reload. (119324)
 ? 001989 [Engine] RNG seed has been set to 1672834821.
+? 002275 [Engine] Marked app/main.rb for reload. (136482)
+? 002275 [Engine] RNG seed has been set to 1672834821.
+? 002280 [Engine] Marked app/main.rb for reload. (136784)
+? 002280 [Engine] RNG seed has been set to 1672834821.
+? 002284 [Engine] Marked app/main.rb for reload. (137025)
+? 002284 [Engine] RNG seed has been set to 1672834821.
+? 002286 [Engine] Marked app/main.rb for reload. (137147)
+? 002286 [Engine] RNG seed has been set to 1672834821.
+? 002289 [Engine] Marked app/main.rb for reload. (137329)
+? 002289 [Engine] RNG seed has been set to 1672834821.
+? 002290 [Engine] Marked app/main.rb for reload. (137391)
+? 002290 [Engine] RNG seed has been set to 1672834821.
+? 002293 [Engine] Marked app/main.rb for reload. (137573)
+? 002293 [Engine] RNG seed has been set to 1672834821.
+? 002297 [Engine] Marked app/main.rb for reload. (137815)
+? 002297 [Engine] RNG seed has been set to 1672834821.
+? 002301 [Engine] Marked app/main.rb for reload. (138056)
+? 002301 [Engine] RNG seed has been set to 1672834821.
+? 002302 [Engine] Marked app/main.rb for reload. (138118)
+? 002303 [Engine] RNG seed has been set to 1672834821.
+? 002312 [Engine] Marked app/main.rb for reload. (138660)
+? 002312 [Engine] RNG seed has been set to 1672834821.
+? 002604 [Engine] Marked app/main.rb for reload. (156182)
+? 002604 [Engine] RNG seed has been set to 1672834821.
+- 002604 [Game] Game state and exception will be written to logs/exceptions/game_state_0.txt and logs/exceptions/current.txt.
+- 002604 [Game] * EXCEPTION:
+* ERROR:
+Undefined method arg for main.
+
+
+** Backtrace:
+*** app/main.rb:130:in tick
+*** app/main.rb:215 (156185)
+? 002607 [Engine] Marked app/main.rb for reload. (156364)
+- 002607 [Game] Game state and exception will be written to logs/exceptions/game_state_1.txt and logs/exceptions/current.txt.
+- 002607 [Game] * EXCEPTION:
+* ERROR - :output method missing on ~GTK::Args~.
+The method named
+  :output
+doesn't exist on
+  [GTK::Args].
+#+begin_src ~GTK::Args#inspect~
+{:state=>{:entity_id=>1, :tick_count=>1}, :temp_state=>{}, :inputs=>{:controller_one=>{:key_down=>{}, :key_held=>{}, :key_up=>{}}, :controller_two=>{:key_down=>{}, :key_held=>{}, :key_up=>{}}, :controller_three=>{:key_down=>{}, :key_held=>{}, :key_up=>{}}, :controller_four=>{:key_down=>{}, :key_held=>{}, :key_up=>{}}, :keyboard=>{:key_up=>{:truthy_keys=>[]}, :key_held=>{:truthy_keys=>[]}, :key_down=>{:truthy_keys=>[]}, :has_focus=>false}, :mouse=>{:x=>1278.0, :y=>319.0, :moved=>nil, :moved_at=>16451, :has_focus=>false}, :text=>[]}, :passes=>[], :outputs=>{:solids=>[], :sprites=>[], :lines=>[], :labels=>[], :sounds=>[], :borders=>[], :primitives=>[], :static_solids=>[], :static_borders=>[], :static_sprites=>[], :static_lines=>[], :static_labels=>[], :static_primitives=>[]}, :grid=>{:left_margin=>0.0, :device_height=>720, :allscreen_bottom=>0, :device_width=>1280, :bottom=>0.0, :allscreen_left=>0, :allscreen_width=>1280, :allscreen_right=>1280, :ffi_draw=>"", :center_x=>640.0, :native_height=>720, :origin_x=>0.0, :allscreen_top=>720, :native_width=>1280, :bottom_margin=>0.0, :origin_y=>720, :native_scale=>1.0, :native_scale_enum=>100, :left=>0.0, :allscreen_offset_y=>0, :allscreen_offset_x=>0, :right=>1280, :allscreen_height=>720, :top=>720, :device_bottom=>0.0, :runtime=>{:argv=>"/home/ritog/coding/ruby-game/dragon-game/dragonruby", :platform=>"Linux", :required_files=>[], :reload_list_history=>{"app/main.rb"=>{:current=>{:path=>"app/main.rb", :global_at=>156366, :event=>:reload_completed}, :history=>[{:path=>"app/main.rb", :global_at=>-1, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>-1, :event=>:processing}, {:path=>"app/main.rb", :global_at=>-1, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>10559, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>10560, :event=>:processing}, {:path=>"app/main.rb", :global_at=>10561, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>10681, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>10682, :event=>:processing}, {:path=>"app/main.rb", :global_at=>10683, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>11223, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>11224, :event=>:processing}, {:path=>"app/main.rb", :global_at=>11225, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>11345, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>11346, :event=>:processing}, {:path=>"app/main.rb", :global_at=>11347, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>11527, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>11528, :event=>:processing}, {:path=>"app/main.rb", :global_at=>11529, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>13149, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>13150, :event=>:processing}, {:path=>"app/main.rb", :global_at=>13151, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>13328, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>13329, :event=>:processing}, {:path=>"app/main.rb", :global_at=>13330, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>44890, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>44891, :event=>:processing}, {:path=>"app/main.rb", :global_at=>44892, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>45192, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>45193, :event=>:processing}, {:path=>"app/main.rb", :global_at=>45194, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>55627, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>55628, :event=>:processing}, {:path=>"app/main.rb", :global_at=>55629, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>56228, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>56229, :event=>:processing}, {:path=>"app/main.rb", :global_at=>56230, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>57609, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>57610, :event=>:processing}, {:path=>"app/main.rb", :global_at=>57611, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>57850, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>57851, :event=>:processing}, {:path=>"app/main.rb", :global_at=>57852, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>59300, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>59300, :event=>:processing}, {:path=>"app/main.rb", :global_at=>59301, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>60219, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>60219, :event=>:processing}, {:path=>"app/main.rb", :global_at=>60220, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>61094, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>61095, :event=>:processing}, {:path=>"app/main.rb", :global_at=>61096, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>63056, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>63056, :event=>:processing}, {:path=>"app/main.rb", :global_at=>63057, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>64952, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>64952, :event=>:processing}, {:path=>"app/main.rb", :global_at=>64953, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>66851, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>66851, :event=>:processing}, {:path=>"app/main.rb", :global_at=>66852, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>68779, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>68779, :event=>:processing}, {:path=>"app/main.rb", :global_at=>68780, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>87324, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>87325, :event=>:processing}, {:path=>"app/main.rb", :global_at=>87326, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>93801, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>93802, :event=>:processing}, {:path=>"app/main.rb", :global_at=>93803, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>94642, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>94643, :event=>:processing}, {:path=>"app/main.rb", :global_at=>94644, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>94764, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>94765, :event=>:processing}, {:path=>"app/main.rb", :global_at=>94766, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>95006, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>95007, :event=>:processing}, {:path=>"app/main.rb", :global_at=>95008, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>95068, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>95069, :event=>:processing}, {:path=>"app/main.rb", :global_at=>95070, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>104903, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>104904, :event=>:processing}, {:path=>"app/main.rb", :global_at=>104905, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>105504, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>105505, :event=>:processing}, {:path=>"app/main.rb", :global_at=>105506, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>105926, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>105927, :event=>:processing}, {:path=>"app/main.rb", :global_at=>105928, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>106287, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>106288, :event=>:processing}, {:path=>"app/main.rb", :global_at=>106289, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>111867, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>111868, :event=>:processing}, {:path=>"app/main.rb", :global_at=>111869, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>112169, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>112170, :event=>:processing}, {:path=>"app/main.rb", :global_at=>112171, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>112469, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>112470, :event=>:processing}, {:path=>"app/main.rb", :global_at=>112471, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>112711, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>112712, :event=>:processing}, {:path=>"app/main.rb", :global_at=>112713, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>113133, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>113134, :event=>:processing}, {:path=>"app/main.rb", :global_at=>113135, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>113374, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>113375, :event=>:processing}, {:path=>"app/main.rb", :global_at=>113376, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>113496, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>113497, :event=>:processing}, {:path=>"app/main.rb", :global_at=>113498, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>113858, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>113859, :event=>:processing}, {:path=>"app/main.rb", :global_at=>113860, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>118180, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>118181, :event=>:processing}, {:path=>"app/main.rb", :global_at=>118182, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>118422, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>118423, :event=>:processing}, {:path=>"app/main.rb", :global_at=>118424, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>119324, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>119325, :event=>:processing}, {:path=>"app/main.rb", :global_at=>119326, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>136482, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>136483, :event=>:processing}, {:path=>"app/main.rb", :global_at=>136484, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>136784, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>136785, :event=>:processing}, {:path=>"app/main.rb", :global_at=>136786, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>137025, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>137026, :event=>:processing}, {:path=>"app/main.rb", :global_at=>137027, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>137147, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>137148, :event=>:processing}, {:path=>"app/main.rb", :global_at=>137149, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>137329, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>137330, :event=>:processing}, {:path=>"app/main.rb", :global_at=>137331, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>137391, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>137392, :event=>:processing}, {:path=>"app/main.rb", :global_at=>137393, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>137573, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>137574, :event=>:processing}, {:path=>"app/main.rb", :global_at=>137575, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>137815, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>137816, :event=>:processing}, {:path=>"app/main.rb", :global_at=>137817, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>138056, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>138057, :event=>:processing}, {:path=>"app/main.rb", :global_at=>138058, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>138118, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>138119, :event=>:processing}, {:path=>"app/main.rb", :global_at=>138120, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>138660, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>138661, :event=>:processing}, {:path=>"app/main.rb", :global_at=>138662, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>156182, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>156183, :event=>:processing}, {:path=>"app/main.rb", :global_at=>156184, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>156364, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>156365, :event=>:processing}, {:path=>"app/main.rb", :global_at=>156366, :event=>:reload_completed}]}}}, :device_top=>720, :name=>:bottom_left, :device_right=>1280, :device_left=>0.0, :center=>[640.0, 360.0], :center_y=>360.0, :rect=>[0.0, 0.0, 1280, 720]}}
+#+end_src ~GTK::Args#inspect~ for :output method missing on ~GTK::Args~
+
+** Did you mean?
+Here's a list of methods that kind of look like :output.
+*** :outputs, *** :outputs=
+** Backtrace:
+*** app/main.rb:130:in tick
+*** app/main.rb:215 (156367)
+? 002611 [Engine] Marked app/main.rb for reload. (156604)
+? 002611 [Engine] RNG seed has been set to 1672834821.
+? 002614 [Engine] Marked app/main.rb for reload. (156786)
+? 002614 [Engine] RNG seed has been set to 1672834821.
+? 002616 [Engine] Marked app/main.rb for reload. (156908)
+? 002616 [Engine] RNG seed has been set to 1672834821.
+? 002620 [Engine] Marked app/main.rb for reload. (157149)
+? 002620 [Engine] RNG seed has been set to 1672834821.
+? 002623 [Engine] Marked app/main.rb for reload. (157331)
+? 002623 [Engine] RNG seed has been set to 1672834821.
+? 002624 [Engine] Marked app/main.rb for reload. (157393)
+? 002624 [Engine] RNG seed has been set to 1672834821.
+- 002625 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 132:2: syntax error, unexpected '\n'
+
+
+
+** Backtrace:
+*** app/main.rb:218 (157455)
+? 002627 [Engine] Marked app/main.rb for reload. (157575)
+? 002627 [Engine] RNG seed has been set to 1672834821.
+? 002628 [Engine] Marked app/main.rb for reload. (157637)
+? 002628 [Engine] RNG seed has been set to 1672834821.
+- 002631 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 134:3: syntax error, unexpected '}'
+
+
+
+** Backtrace:
+*** app/main.rb:219 (157819)
+? 002634 [Engine] Marked app/main.rb for reload. (157998)
+? 002634 [Engine] RNG seed has been set to 1672834821.
+- 002637 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 134:3: syntax error, unexpected '}'
+
+
+
+** Backtrace:
+*** app/main.rb:219 (158180)
+- 002637 [Game] * ERROR:
+Exporting the game state failed:
+
+Export exception: stack level too deep.
+
+Original comments: * EXCEPTION:
+** Failed to reload app/main.rb.
+line 134:3: syntax error, unexpected '}'
+
+
+
+** Backtrace:
+*** app/main.rb:219.
+
+If the export exception above looks confusing, you should let DragonRuby know about this error.
+
+
+- 002642 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 135:3: syntax error, unexpected '}'
+
+
+
+** Backtrace:
+*** app/main.rb:219 (158472)
+? 002648 [Engine] Marked app/main.rb for reload. (158832)
+? 002648 [Engine] RNG seed has been set to 1672834821.
+? 002653 [Engine] Marked app/main.rb for reload. (159134)
+? 002653 [Engine] RNG seed has been set to 1672834821.
+- 002656 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 137:3: syntax error, unexpected '}'
+
+
+
+** Backtrace:
+*** app/main.rb:222 (159316)
+- 002658 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 137:3: syntax error, unexpected '}'
+
+
+
+** Backtrace:
+*** app/main.rb:222 (159436)
+? 002660 [Engine] Marked app/main.rb for reload. (159556)
+? 002660 [Engine] RNG seed has been set to 1672834821.
+- 002662 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 138:3: syntax error, unexpected '}'
+
+
+
+** Backtrace:
+*** app/main.rb:223 (159678)
+? 002665 [Engine] Marked app/main.rb for reload. (159858)
+? 002665 [Engine] RNG seed has been set to 1672834821.
+? 002753 [Engine] Marked app/main.rb for reload. (165140)
+? 002753 [Engine] RNG seed has been set to 1672834821.
+- 002753 [Game] Game state and exception will be written to logs/exceptions/game_state_0.txt and logs/exceptions/current.txt.
+- 002753 [Game] * EXCEPTION:
+* ERROR:
+Undefined method player_sprite for main.
+
+
+** Backtrace:
+*** app/main.rb:149:in tick
+*** app/main.rb:225 (165143)
+? 002756 [Engine] Marked app/main.rb for reload. (165322)
+- 002756 [Game] Game state and exception will be written to logs/exceptions/game_state_1.txt and logs/exceptions/current.txt.
+- 002756 [Game] * EXCEPTION:
+* ERROR:
+Undefined method player_sprite_index for main.
+
+
+** Backtrace:
+*** app/main.rb:149:in tick
+*** app/main.rb:225 (165325)
+? 002758 [Engine] Marked app/main.rb for reload. (165442)
+? 002758 [Engine] RNG seed has been set to 1672834821.
+- 002765 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 149:46: syntax error, unexpected ')'
+
+
+
+** Backtrace:
+*** app/main.rb:225 (165864)
+- 002770 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 149:53: syntax error, unexpected ')'
+
+
+
+** Backtrace:
+*** app/main.rb:225 (166164)
+? 002773 [Engine] Marked app/main.rb for reload. (166344)
+? 002773 [Engine] RNG seed has been set to 1672834821.
+- 002776 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 149:68: syntax error, unexpected ')'
+
+
+
+** Backtrace:
+*** app/main.rb:225 (166525)
+? 002779 [Engine] Marked app/main.rb for reload. (166705)
+? 002779 [Engine] RNG seed has been set to 1672834821.
+? 002783 [Engine] Marked app/main.rb for reload. (166947)
+? 002783 [Engine] RNG seed has been set to 1672834821.
+? 002790 [Engine] Marked app/main.rb for reload. (167369)
+? 002790 [Engine] RNG seed has been set to 1672834821.
+? 002792 [Engine] Marked app/main.rb for reload. (167491)
+? 002792 [Engine] RNG seed has been set to 1672834821.
+? 002796 [Engine] Marked app/main.rb for reload. (167733)
+? 002796 [Engine] RNG seed has been set to 1672834821.
+? 002800 [Engine] Marked app/main.rb for reload. (167975)
+? 002800 [Engine] RNG seed has been set to 1672834821.
+? 002803 [Engine] Marked app/main.rb for reload. (168157)
+? 002803 [Engine] RNG seed has been set to 1672834821.
+? 002804 [Engine] Marked app/main.rb for reload. (168218)
+? 002807 [Engine] Marked app/main.rb for reload. (168398)
+? 002807 [Engine] RNG seed has been set to 1672834821.
+? 002809 [Engine] Marked app/main.rb for reload. (168520)
+? 002810 [Engine] RNG seed has been set to 1672834821.
+? 002812 [Engine] Marked app/main.rb for reload. (168642)
+? 002812 [Engine] RNG seed has been set to 1672834821.
+? 002816 [Engine] Marked app/main.rb for reload. (168884)
+? 002816 [Engine] RNG seed has been set to 1672834821.
+? 002818 [Engine] Marked app/main.rb for reload. (169006)
+? 002818 [Engine] RNG seed has been set to 1672834821.
+? 002821 [Engine] Marked app/main.rb for reload. (169188)
+? 002821 [Engine] RNG seed has been set to 1672834821.
+- 002822 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 164:34: syntax error, unexpected local variable or method, expecting keyword_end
+line 175:28: syntax error, unexpected tSTRING, expecting keyword_end
+line 181:13: syntax error, unexpected tSTRING, expecting keyword_end
+line 193:32: syntax error, unexpected tSTRING, expecting keyword_end
+line 226:10: unterminated string meets end of file
+line 226:10: syntax error, unexpected end of file, expecting keyword_end
+
+
+
+** Backtrace:
+*** app/main.rb:226 (169250)
+- 002827 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 164:34: syntax error, unexpected local variable or method, expecting keyword_end
+line 175:28: syntax error, unexpected tSTRING, expecting keyword_end
+line 181:13: syntax error, unexpected tSTRING, expecting keyword_end
+line 193:32: syntax error, unexpected tSTRING, expecting keyword_end
+line 226:10: unterminated string meets end of file
+line 226:10: syntax error, unexpected end of file, expecting keyword_end
+
+
+
+** Backtrace:
+*** app/main.rb:226 (169550)
+? 002828 [Engine] Marked app/main.rb for reload. (169610)
+? 002828 [Engine] RNG seed has been set to 1672834821.

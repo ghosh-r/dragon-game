@@ -127,6 +127,16 @@ def tick args
     args.audio[:music] = { input: 'sounds/flight.ogg', looping: true }
   end
 
+  args.outputs.solids << {
+    x: 0,
+    y: 0,
+    w: args.grid.w,
+    h: args.grid.h,
+    r: 92,
+    g: 120,
+    b: 230
+  }
+
   args.state.player ||= {
     x: 120,
     y: 280,
@@ -135,6 +145,9 @@ def tick args
     speed: 10,
     path: 'sprites/misc/dragon-0.png'
   }
+
+  player_sprite_index = 0.frame_index(count: 6, hold_for: 8, repeat: true)
+  args.state.player.path = "sprites/misc/dragon-#{player_sprite_index}.png"
 
   args.state.fireballs ||= []
 
@@ -177,6 +190,7 @@ def tick args
     end
     args.state.targets.each do |target|
       if args.geometry.intersect_rect?(target, fireball)
+        args.outputs.sounds << 'sounds/target.wav'
         target.dead = true
         fireball.dead = true
         args.state.score += 1

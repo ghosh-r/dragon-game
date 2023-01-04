@@ -65,28 +65,8 @@ def handle_player_movement(args)
   end
 end
 
-def tick args
-  args.state.player ||= {
-    x: 120,
-    y: 280,
-    w: 100,
-    h: 80,
-    speed: 10,
-    path: 'sprites/misc/dragon-0.png'
-  }
-
-  args.state.fireballs ||= []
-
-  args.state.targets ||= [ spawn_target(args), spawn_target(args), spawn_target(args),
-  ]
-
-  args.state.score ||= 0
-  args.state.timer ||= 30 * 60
-
-  args.state.timer -= 1
-
-  if args.state.timer < 0
-    labels = []
+def game_over_stuff(args)
+  labels = []
     labels << {
       x: 40,
       y: args.grid.h - 40,
@@ -111,9 +91,35 @@ def tick args
     if args.state.timer < -32 && fire_input?(args)
       $gtk.reset
     end
+  end
 
+
+
+
+
+def tick args
+  args.state.player ||= {
+    x: 120,
+    y: 280,
+    w: 100,
+    h: 80,
+    speed: 10,
+    path: 'sprites/misc/dragon-0.png'
+  }
+
+  args.state.fireballs ||= []
+
+  args.state.targets ||= [ spawn_target(args), spawn_target(args), spawn_target(args),
+  ]
+
+  args.state.score ||= 0
+  args.state.timer ||= 30 * 60
+
+  args.state.timer -= 1
+
+  if args.state.timer < 0
+    game_over_stuff(args)
     return
-
   end
 
 

@@ -114,17 +114,6 @@ def tick args
     text: "Score: #{args.state.score}",
     size_enum: 3
   }
-
-  args.outputs.debug << {
-    x: 40,
-    y: args.grid.h - 80,
-    text: "Fireballs: #{args.state.fireballs.length}",
-  }.label!
-  args.outputs.debug << {
-    x: 40,
-    y: args.grid.h - 100,
-    text: "1st fireball x pos: #{args.state.fireballs.first&.x}",
-  }.label!
   
 end
 

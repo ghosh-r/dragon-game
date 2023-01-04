@@ -1,10 +1,11 @@
-def spawn_target x, y
+def spawn_target(args)
+  size = 128
   {
-    x: x,
-    y: y,
-    w: 128,
-    h: 128,
-    path: 'sprites/target.png'
+    x: rand(args.grid.w * 0.4) + args.grid.w * 0.6,
+    y: rand(args.grid.h - size * 2) + size,
+    w: size,
+    h: size,
+    path: 'sprites/target.png',
   }
 end
 
@@ -20,10 +21,7 @@ def tick args
 
   args.state.fireballs ||= []
 
-  args.state.targets ||= [
-    spawn_target(800, 120),
-    spawn_target(920, 600),
-    spawn_target(1020, 320),
+  args.state.targets ||= [ spawn_target(args), spawn_target(args), spawn_target(args),
   ]
 
 

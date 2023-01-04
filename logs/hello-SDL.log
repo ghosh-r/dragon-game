@@ -102,3 +102,358 @@ Undefined method labels for main.
 ? 001083 [Engine] RNG seed has been set to 1672834821.
 ? 001114 [Engine] RNG seed has been set to 1672834821.
 ? 001146 [Engine] RNG seed has been set to 1672834821.
+? 001455 [Engine] Marked app/main.rb for reload. (87324)
+? 001456 [Engine] RNG seed has been set to 1672834821.
+- 001474 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 208:10: syntax error, unexpected end of file, expecting keyword_end
+
+
+
+** Backtrace:
+*** app/main.rb:208 (88405)
+- 001478 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 154:10: syntax error, unexpected label
+
+
+
+** Backtrace:
+*** app/main.rb:208 (88645)
+- 001482 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 154:10: syntax error, unexpected label
+
+
+
+** Backtrace:
+*** app/main.rb:208 (88885)
+- 001486 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 154:10: syntax error, unexpected label
+
+
+
+** Backtrace:
+*** app/main.rb:208 (89125)
+- 001490 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 154:10: syntax error, unexpected label
+
+
+
+** Backtrace:
+*** app/main.rb:208 (89365)
+- 001494 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 154:10: syntax error, unexpected label
+
+
+
+** Backtrace:
+*** app/main.rb:208 (89605)
+- 001497 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 154:10: syntax error, unexpected label
+line 155:34: syntax error, unexpected '}'
+
+
+
+** Backtrace:
+*** app/main.rb:208 (89785)
+- 001501 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 154:10: syntax error, unexpected label
+
+
+
+** Backtrace:
+*** app/main.rb:208 (90024)
+- 001506 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 154:10: syntax error, unexpected label
+
+
+
+** Backtrace:
+*** app/main.rb:208 (90323)
+- 001513 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 154:10: syntax error, unexpected label
+
+
+
+** Backtrace:
+*** app/main.rb:208 (90743)
+- 001514 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 154:10: syntax error, unexpected label
+
+
+
+** Backtrace:
+*** app/main.rb:208 (90803)
+- 001526 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 154:12: syntax error, unexpected label
+
+
+
+** Backtrace:
+*** app/main.rb:208 (91523)
+? 001564 [Engine] Marked app/main.rb for reload. (93801)
+? 001564 [Engine] RNG seed has been set to 1672834821.
+? 001578 [Engine] Marked app/main.rb for reload. (94642)
+? 001578 [Engine] RNG seed has been set to 1672834821.
+? 001580 [Engine] Marked app/main.rb for reload. (94764)
+? 001580 [Engine] RNG seed has been set to 1672834821.
+? 001584 [Engine] Marked app/main.rb for reload. (95006)
+? 001584 [Engine] RNG seed has been set to 1672834821.
+? 001585 [Engine] Marked app/main.rb for reload. (95068)
+? 001585 [Engine] RNG seed has been set to 1672834821.
+- 001592 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 126:10: syntax error, unexpected label
+
+
+
+** Backtrace:
+*** app/main.rb:204 (95489)
+- 001597 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 126:10: syntax error, unexpected label
+
+
+
+** Backtrace:
+*** app/main.rb:204 (95788)
+- 001601 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 126:10: syntax error, unexpected label
+
+
+
+** Backtrace:
+*** app/main.rb:204 (96028)
+- 001604 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 126:10: syntax error, unexpected label
+line 127:34: syntax error, unexpected '}'
+
+
+
+** Backtrace:
+*** app/main.rb:204 (96208)
+- 001606 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 126:10: syntax error, unexpected label
+line 127:36: syntax error, unexpected '}'
+
+
+
+** Backtrace:
+*** app/main.rb:204 (96328)
+- 001607 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 126:10: syntax error, unexpected label
+
+
+
+** Backtrace:
+*** app/main.rb:204 (96388)
+- 001610 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 126:10: syntax error, unexpected label
+
+
+
+** Backtrace:
+*** app/main.rb:204 (96568)
+- 001612 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 126:10: syntax error, unexpected label
+
+
+
+** Backtrace:
+*** app/main.rb:204 (96687)
+- 001615 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 126:10: syntax error, unexpected label
+
+
+
+** Backtrace:
+*** app/main.rb:204 (96867)
+- 001621 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 126:10: syntax error, unexpected label
+
+
+
+** Backtrace:
+*** app/main.rb:204 (97227)
+- 001623 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 126:10: syntax error, unexpected label
+
+
+
+** Backtrace:
+*** app/main.rb:204 (97347)
+- 001713 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 126:10: syntax error, unexpected label
+line 204:3: syntax error, unexpected keyword_end, expecting end of file
+
+
+
+** Backtrace:
+*** app/main.rb:204 (102746)
+- 001731 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 126:8: syntax error, unexpected label
+line 204:3: syntax error, unexpected keyword_end, expecting end of file
+
+
+
+** Backtrace:
+*** app/main.rb:204 (103826)
+- 001734 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 126:14: syntax error, unexpected ':'
+line 204:3: syntax error, unexpected keyword_end, expecting end of file
+
+
+
+** Backtrace:
+*** app/main.rb:204 (104005)
+- 001739 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 126:25: syntax error, unexpected ':'
+line 204:3: syntax error, unexpected keyword_end, expecting end of file
+
+
+
+** Backtrace:
+*** app/main.rb:204 (104305)
+- 001743 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 126:30: syntax error, unexpected label
+line 204:3: syntax error, unexpected keyword_end, expecting end of file
+
+
+
+** Backtrace:
+*** app/main.rb:204 (104543)
+? 001749 [Engine] Marked app/main.rb for reload. (104903)
+? 001749 [Engine] RNG seed has been set to 1672834821.
+? 001759 [Engine] Marked app/main.rb for reload. (105504)
+? 001759 [Engine] RNG seed has been set to 1672834821.
+? 001766 [Engine] Marked app/main.rb for reload. (105926)
+? 001766 [Engine] RNG seed has been set to 1672834821.
+? 001772 [Engine] Marked app/main.rb for reload. (106287)
+? 001772 [Engine] RNG seed has been set to 1672834821.
+- 001832 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 208:10: syntax error, unexpected end of file, expecting keyword_end
+
+
+
+** Backtrace:
+*** app/main.rb:206 (109889)
+- 001838 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 208:10: syntax error, unexpected end of file, expecting keyword_end
+
+
+
+** Backtrace:
+*** app/main.rb:206 (110249)
+- 001841 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 209:10: syntax error, unexpected end of file, expecting keyword_end
+
+
+
+** Backtrace:
+*** app/main.rb:206 (110428)
+- 001846 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 209:10: syntax error, unexpected end of file, expecting keyword_end
+
+
+
+** Backtrace:
+*** app/main.rb:206 (110728)
+- 001848 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 209:10: syntax error, unexpected end of file, expecting keyword_end
+
+
+
+** Backtrace:
+*** app/main.rb:206 (110848)
+- 001851 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 209:10: syntax error, unexpected end of file, expecting keyword_end
+
+
+
+** Backtrace:
+*** app/main.rb:206 (111028)
+- 001856 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 209:10: syntax error, unexpected end of file, expecting keyword_end
+
+
+
+** Backtrace:
+*** app/main.rb:206 (111327)
+- 001859 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 209:10: syntax error, unexpected end of file, expecting keyword_end
+
+
+
+** Backtrace:
+*** app/main.rb:206 (111507)
+- 001862 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 210:10: syntax error, unexpected end of file, expecting keyword_end
+
+
+
+** Backtrace:
+*** app/main.rb:206 (111687)
+? 001865 [Engine] Marked app/main.rb for reload. (111867)
+? 001865 [Engine] RNG seed has been set to 1672834821.
+? 001870 [Engine] Marked app/main.rb for reload. (112169)
+? 001870 [Engine] RNG seed has been set to 1672834821.
+? 001875 [Engine] Marked app/main.rb for reload. (112469)
+? 001875 [Engine] RNG seed has been set to 1672834821.
+? 001879 [Engine] Marked app/main.rb for reload. (112711)
+? 001879 [Engine] RNG seed has been set to 1672834821.
+- 001883 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 152:5: syntax error, unexpected keyword_end
+line 210:10: syntax error, unexpected end of file, expecting keyword_end
+
+
+
+** Backtrace:
+*** app/main.rb:211 (112953)
+? 001886 [Engine] Marked app/main.rb for reload. (113133)
+? 001886 [Engine] RNG seed has been set to 1672834821.
+? 001890 [Engine] Marked app/main.rb for reload. (113374)
+? 001890 [Engine] RNG seed has been set to 1672834821.
+? 001892 [Engine] Marked app/main.rb for reload. (113496)
+? 001892 [Engine] RNG seed has been set to 1672834821.
+? 001898 [Engine] Marked app/main.rb for reload. (113858)
+? 001898 [Engine] RNG seed has been set to 1672834821.
+? 001970 [Engine] Marked app/main.rb for reload. (118180)
+? 001970 [Engine] RNG seed has been set to 1672834821.
+? 001974 [Engine] Marked app/main.rb for reload. (118422)
+? 001974 [Engine] RNG seed has been set to 1672834821.
+? 001989 [Engine] Marked app/main.rb for reload. (119324)
+? 001989 [Engine] RNG seed has been set to 1672834821.

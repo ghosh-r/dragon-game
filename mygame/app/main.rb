@@ -67,32 +67,59 @@ def handle_player_movement(args)
   end
 end
 
+HIGH_SCORE_FILE = 'high-score.txt'
+
 def game_over_stuff(args)
+  args.state.high_score ||= args.gtk.read_file(HIGH_SCORE_FILE).to_i
+
+  if !args.state.saved_high_score && args.state.score > args.state.high_score
+    args.gtk.write_file(HIGH_SCORE_FILE, args.state.score.to_s)
+    args.state.saved_high_score = true
+  end
+
   labels = []
+
+  if args.state.score > args.state.high_score
     labels << {
-      x: 40,
-      y: args.grid.h - 40,
-      text: 'Game Over!',
-      size_enum: 9,
-    }
-    labels << {
-      x: 40,
-      y: args.grid.h - 132,
-      text: 'Fire to restart',
-      size_enum: 2,
-    }
-    labels << {
-      x: 40,
+      x: 260,
       y: args.grid.h - 90,
-      text: "Score: #{args.state.score}",
-      size_enum: 4,
+      text: 'New high-score!',
+      size_enum: 3,
     }
+  else
+    labels << {
+      x: 260,
+      y: args.grid.h - 90,
+      text: "Score to beat: #{args.state.high_score}",
+      size_enum: 3,
+    }
+  end
 
-    args.outputs.labels << labels
+  
+  labels << {
+    x: 40,
+    y: args.grid.h - 40,
+    text: 'Game Over!',
+    size_enum: 9,
+  }
+  labels << {
+    x: 40,
+    y: args.grid.h - 132,
+    text: 'Fire to restart',
+    size_enum: 2,
+  }
+  labels << {
+    x: 40,
+    y: args.grid.h - 90,
+    text: "Score: #{args.state.score}",
+    size_enum: 4,
+  }
 
-    if args.state.timer < -32 && fire_input?(args)
-      $gtk.reset
-    end
+  args.outputs.labels << labels
+
+  if args.state.timer < -32 && fire_input?(args)
+    $gtk.reset
+  end
 end
 
 

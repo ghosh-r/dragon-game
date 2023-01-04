@@ -52,16 +52,16 @@ def tick args
 
     args.outputs.labels << labels
 
-    if args.inputs.keyboard.key_down.z ||
+    if args.state.timer < -32 &&
+      (args.inputs.keyboard.key_down.z ||
       args.inputs.keyboard.key_down.j ||
-      args.inputs.controller_one.key_down.a
+      args.inputs.controller_one.key_down.a)
       $gtk.reset
     end
 
     return
 
   end
-
 
 
 
@@ -146,12 +146,22 @@ def tick args
 
   args.outputs.sprites << [args.state.player, args.state.fireballs, args.state.targets]
   args.outputs.labels << args.state.fireballs
-  args.outputs.labels << {
+  labels = []
+  labels << {
     x: 40,
     y: args.grid.h - 40,
     text: "Score: #{args.state.score}",
     size_enum: 3
   }
+  
+  labels << {
+    x: args.grid.w - 40,
+    y: args.grid.h - 40,
+    text: "Time left: #{(args.state.timer / 60).round}",
+    size_enum: 2,
+    alignment_enum: 2,
+  }
+  args.outputs.labels << labels
   
 end
 

@@ -1440,3 +1440,87 @@ line 166:3: syntax error, unexpected keyword_end, expecting end of file
 ? 008953 [Engine] RNG seed has been set to 1672814276.
 ? 008963 [Engine] Marked app/main.rb for reload. (537654)
 ? 008963 [Engine] RNG seed has been set to 1672814276.
+- 009166 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 170:10: syntax error, unexpected end of file, expecting keyword_end
+
+
+
+** Backtrace:
+*** app/main.rb:168 (549833)
+- 009169 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 170:10: syntax error, unexpected end of file, expecting keyword_end
+
+
+
+** Backtrace:
+*** app/main.rb:168 (550013)
+- 009173 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 170:10: syntax error, unexpected end of file, expecting keyword_end
+
+
+
+** Backtrace:
+*** app/main.rb:168 (550253)
+- 009179 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 171:10: syntax error, unexpected end of file, expecting keyword_end
+
+
+
+** Backtrace:
+*** app/main.rb:168 (550612)
+- 009188 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 170:10: syntax error, unexpected end of file, expecting keyword_end
+
+
+
+** Backtrace:
+*** app/main.rb:168 (551152)
+- 009206 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 173:10: syntax error, unexpected end of file, expecting keyword_end
+
+
+
+** Backtrace:
+*** app/main.rb:168 (552232)
+? 009212 [Engine] Marked app/main.rb for reload. (552592)
+? 009212 [Engine] RNG seed has been set to 1672814276.
+- 009212 [Game] * INFO: New methods discovered.
+** :fire_input?
+
+? 009214 [Engine] Marked app/main.rb for reload. (552654)
+? 009214 [Engine] RNG seed has been set to 1672814276.
+? 009262 [Engine] Marked app/main.rb for reload. (555535)
+? 009262 [Engine] RNG seed has been set to 1672814276.
+? 009270 [Engine] Marked app/main.rb for reload. (556016)
+? 009270 [Engine] RNG seed has been set to 1672814276.
+? 009275 [Engine] Marked app/main.rb for reload. (556318)
+? 009275 [Engine] RNG seed has been set to 1672814276.
+? 009306 [Engine] RNG seed has been set to 1672814276.
+? 009324 [Engine] Marked app/main.rb for reload. (559262)
+? 009324 [Engine] RNG seed has been set to 1672814276.
+- 009324 [Game] Game state and exception will be written to logs/exceptions/game_state_0.txt and logs/exceptions/current.txt.
+- 009324 [Game] * EXCEPTION:
+* ERROR:
+Undefined method fire for main.
+
+
+** Backtrace:
+*** app/main.rb:119:in tick
+*** app/main.rb:169 (559265)
+? 009326 [Engine] Marked app/main.rb for reload. (559384)
+- 009326 [Game] Game state and exception will be written to logs/exceptions/game_state_1.txt and logs/exceptions/current.txt.
+- 009326 [Game] * EXCEPTION: 'fire_input?': wrong number of arguments (0 for 1)
+** Backtrace:
+*** app/main.rb:12:in fire_input?
+*** app/main.rb:119:in tick
+*** app/main.rb:169 (559387)
+? 009327 [Engine] Marked app/main.rb for reload. (559444)
+? 009329 [Engine] Marked app/main.rb for reload. (559564)
+? 009329 [Engine] RNG seed has been set to 1672814276.
+? 009361 [Engine] RNG seed has been set to 1672814276.

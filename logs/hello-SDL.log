@@ -41,3 +41,599 @@ line 113:10: syntax error, unexpected end of file, expecting keyword_end
 *** app/main.rb:116 (2700)
 ? 000047 [Engine] Marked app/main.rb for reload. (2820)
 ? 000047 [Engine] RNG seed has been set to 1672814276.
+? 000200 [Engine] Marked app/main.rb for reload. (12000)
+? 000200 [Engine] RNG seed has been set to 1672814276.
+- 000200 [Game] Game state and exception will be written to logs/exceptions/game_state_0.txt and logs/exceptions/current.txt.
+- 000200 [Game] * EXCEPTION:
+* ERROR - :args method missing on ~GTK::Args~.
+The method named
+  :args
+doesn't exist on
+  [GTK::Args].
+#+begin_src ~GTK::Args#inspect~
+{:state=>{:entity_id=>1, :tick_count=>0, :__thrash_count__=>{}, :player=>{:x=>120, :y=>280, :w=>100, :h=>80, :speed=>10, :path=>"sprites/misc/dragon-0.png"}, :fireballs=>[], :targets=>[{:x=>1070.0, :y=>355, :w=>64, :h=>64, :path=>"sprites/target.png"}, {:x=>1165.0, :y=>210, :w=>64, :h=>64, :path=>"sprites/target.png"}, {:x=>1104.0, :y=>614, :w=>64, :h=>64, :path=>"sprites/target.png"}], :score=>0}, :temp_state=>{}, :inputs=>{:controller_one=>{:key_down=>{}, :key_held=>{}, :key_up=>{}}, :controller_two=>{:key_down=>{}, :key_held=>{}, :key_up=>{}}, :controller_three=>{:key_down=>{}, :key_held=>{}, :key_up=>{}}, :controller_four=>{:key_down=>{}, :key_held=>{}, :key_up=>{}}, :keyboard=>{:key_up=>{:truthy_keys=>[]}, :key_held=>{:raw_key=>2255, :char=>2255, :truthy_keys=>[:raw_key, :char]}, :key_down=>{:truthy_keys=>[]}, :has_focus=>false}, :mouse=>{:x=>1278.0, :y=>968.0, :moved=>nil, :moved_at=>8007, :has_focus=>false}, :text=>[]}, :passes=>[], :outputs=>{:solids=>[], :sprites=>[], :lines=>[], :labels=>[], :sounds=>[], :borders=>[], :primitives=>[], :static_solids=>[], :static_borders=>[], :static_sprites=>[], :static_lines=>[], :static_labels=>[], :static_primitives=>[]}, :grid=>{:left_margin=>0.0, :device_height=>720, :allscreen_bottom=>0, :device_width=>1280, :bottom=>0.0, :allscreen_left=>0, :allscreen_width=>1280, :allscreen_right=>1280, :ffi_draw=>"", :center_x=>640.0, :native_height=>720, :origin_x=>0.0, :allscreen_top=>720, :native_width=>1280, :bottom_margin=>0.0, :origin_y=>720, :native_scale=>1.0, :native_scale_enum=>100, :left=>0.0, :allscreen_offset_y=>0, :allscreen_offset_x=>0, :right=>1280, :allscreen_height=>720, :top=>720, :device_bottom=>0.0, :runtime=>{:argv=>"/home/ritog/coding/ruby-game/dragon-game/dragonruby", :platform=>"Linux", :required_files=>[], :reload_list_history=>{"app/main.rb"=>{:current=>{:path=>"app/main.rb", :global_at=>12002, :event=>:reload_completed}, :history=>[{:path=>"app/main.rb", :global_at=>-1, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>-1, :event=>:processing}, {:path=>"app/main.rb", :global_at=>-1, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>2518, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>2519, :event=>:processing}, {:path=>"app/main.rb", :global_at=>2520, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>2820, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>2821, :event=>:processing}, {:path=>"app/main.rb", :global_at=>2822, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>12000, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>12001, :event=>:processing}, {:path=>"app/main.rb", :global_at=>12002, :event=>:reload_completed}]}}}, :device_top=>720, :name=>:bottom_left, :device_right=>1280, :device_left=>0.0, :center=>[640.0, 360.0], :center_y=>360.0, :rect=>[0.0, 0.0, 1280, 720]}}
+#+end_src ~GTK::Args#inspect~ for :args method missing on ~GTK::Args~
+** Backtrace:
+*** app/main.rb:89:in tick
+*** app/main.rb:116 (12003)
+? 000203 [Engine] Marked app/main.rb for reload. (12182)
+? 000205 [Engine] Marked app/main.rb for reload. (12301)
+? 000205 [Engine] RNG seed has been set to 1672814276.
+- 000205 [Game] Game state and exception will be written to logs/exceptions/game_state_0.txt and logs/exceptions/current.txt.
+- 000205 [Game] * EXCEPTION:
+* ERROR - :args method missing on ~Module~.
+The method named
+  :args
+doesn't exist on
+  [Module].
+#+begin_src ~Module#inspect~
+GTK::Geometry
+#+end_src ~Module#inspect~ for :args method missing on ~Module~
+** Backtrace:
+*** app/main.rb:89:in tick
+*** app/main.rb:116 (12304)
+? 000206 [Engine] Marked app/main.rb for reload. (12363)
+- 000206 [Game] Game state and exception will be written to logs/exceptions/game_state_1.txt and logs/exceptions/current.txt.
+- 000206 [Game] * EXCEPTION:
+* ERROR - :i method missing on ~Module~.
+The method named
+  :i
+doesn't exist on
+  [Module].
+#+begin_src ~Module#inspect~
+GTK::Geometry
+#+end_src ~Module#inspect~ for :i method missing on ~Module~
+** Backtrace:
+*** app/main.rb:89:in tick
+*** app/main.rb:116 (12366)
+? 000221 [Engine] Marked app/main.rb for reload. (13263)
+? 000221 [Engine] RNG seed has been set to 1672814276.
+- 000221 [Game] Game state and exception will be written to logs/exceptions/game_state_0.txt and logs/exceptions/current.txt.
+- 000221 [Game] KALLER: [] Array
+- 000221 [Game] * EXCEPTION POSSIBLY CAUSED BY CALLING ~gtk.reset~: maybe use ~$gtk.reset_next_tick~ instead.
+An exception occurred soon after ~$gtk.reset~ was invoked.
+
+Keep in mind that ~$gtk.reset~ doesn't stop the rest of your ~tick~ method from being invoked.
+
+You may have attempted to interact with properties on ~args.state~ that no longer have a value.
+
+There are a few ways to fix exceptions that fall into this category:
+
+1. Wherever you are using ~$gtk.reset~ within ~tick~, replace
+   with ~$gtk.reset_next_tick~ (this function will tell DragonRuby to
+   reset on the next frame before invoking your ~tick~ method).
+2. Anywhere you are using ~$gtk.reset~, immediately set default values for
+   properties on ~args.state~ that are needed to complete the execution
+   of the rest of your ~tick~ function successfully.
+3. Do not use ~$gtk.reset~ and instead create a function that reinitializes your game
+   and ensures it has a consistent/valid state.
+
+   Take a look at the following sample apps for insights on how to do this:
+   - =./samples/99_genre_boss_battle/boss_battle_game_jam/app/main.rb=
+   - =./samples/99_genre_platformer/shadows/app/main.rb=
+
+** NOTE:
+The options above are ordered by quickest to implement (but probably not
+bulletproof), to more work to implement (but a better design long term).
+
+* EXCEPTION THROWN:
+* ERROR - :intersect_ method missing on ~Module~.
+The method named
+  :intersect_
+doesn't exist on
+  [Module].
+#+begin_src ~Module#inspect~
+GTK::Geometry
+#+end_src ~Module#inspect~ for :intersect_ method missing on ~Module~
+
+** Did you mean?
+Here's a list of methods that kind of look like :intersect_.
+*** :intersect_rect?, *** :intersects_rect?
+** Backtrace:
+*** app/main.rb:89:in tick
+*** app/main.rb:116
+
+* Backtrace ~$gtk.reset~ last invocation: (13266)
+? 000222 [Engine] Marked app/main.rb for reload. (13325)
+- 000222 [Game] Game state and exception will be written to logs/exceptions/game_state_1.txt and logs/exceptions/current.txt.
+- 000222 [Game] * EXCEPTION:
+* ERROR - :args method missing on ~Module~.
+The method named
+  :args
+doesn't exist on
+  [Module].
+#+begin_src ~Module#inspect~
+GTK::Geometry
+#+end_src ~Module#inspect~ for :args method missing on ~Module~
+** Backtrace:
+*** app/main.rb:89:in tick
+*** app/main.rb:116 (13328)
+? 000226 [Engine] Marked app/main.rb for reload. (13565)
+? 000226 [Engine] RNG seed has been set to 1672814276.
+? 000235 [Engine] Marked app/main.rb for reload. (14105)
+? 000235 [Engine] RNG seed has been set to 1672814276.
+- 000238 [Game] Game state and exception will be written to logs/exceptions/game_state_155.txt and logs/exceptions/current.txt.
+- 000238 [Game] * EXCEPTION:
+* ERROR - :intersect_circ? method missing on ~Module~.
+The method named
+  :intersect_circ?
+with args
+  [{:x=>1070.0, :y=>355, :w=>64, :h=>64, :path=>"sprites/target.png"}, {:x=>220, :y=>290, :w=>64, :h=>64, :path=>"sprites/fireball.png"}]
+doesn't exist on
+  [Module].
+#+begin_src ~Module#inspect~
+GTK::Geometry
+#+end_src ~Module#inspect~ for :intersect_circ? method missing on ~Module~
+
+** Did you mean?
+Here's a list of methods that kind of look like :intersect_circ?.
+*** :intersect_rect?, *** :intersects_rect?
+** Backtrace:
+*** app/main.rb:93:in tick
+*** app/main.rb:92:in tick
+*** app/main.rb:90:in tick
+*** app/main.rb:116 (14263)
+? 000253 [Engine] Marked app/main.rb for reload. (15187)
+? 000253 [Engine] RNG seed has been set to 1672814276.
+- 000255 [Game] Game state and exception will be written to logs/exceptions/game_state_99.txt and logs/exceptions/current.txt.
+- 000255 [Game] * EXCEPTION:
+* ERROR - :intersect_circle? method missing on ~Module~.
+The method named
+  :intersect_circle?
+with args
+  [{:x=>1070.0, :y=>355, :w=>64, :h=>64, :path=>"sprites/target.png"}, {:x=>220, :y=>290, :w=>64, :h=>64, :path=>"sprites/fireball.png"}]
+doesn't exist on
+  [Module].
+#+begin_src ~Module#inspect~
+GTK::Geometry
+#+end_src ~Module#inspect~ for :intersect_circle? method missing on ~Module~
+
+** Did you mean?
+Here's a list of methods that kind of look like :intersect_circle?.
+*** :intersect_rect?, *** :intersects_rect?
+** Backtrace:
+*** app/main.rb:93:in tick
+*** app/main.rb:92:in tick
+*** app/main.rb:90:in tick
+*** app/main.rb:116 (15289)
+? 000262 [Engine] Marked app/main.rb for reload. (15728)
+? 000262 [Engine] RNG seed has been set to 1672814276.
+? 000264 [Engine] Marked app/main.rb for reload. (15850)
+? 000264 [Engine] RNG seed has been set to 1672814276.
+? 000435 [Engine] Marked app/main.rb for reload. (26112)
+? 000435 [Engine] RNG seed has been set to 1672814276.
+? 000439 [Engine] Marked app/main.rb for reload. (26354)
+? 000439 [Engine] RNG seed has been set to 1672814276.
+- 000439 [Game] Game state and exception will be written to logs/exceptions/game_state_0.txt and logs/exceptions/current.txt.
+- 000439 [Game] * EXCEPTION:
+* ERROR - :outp method missing on ~GTK::Args~.
+The method named
+  :outp
+doesn't exist on
+  [GTK::Args].
+#+begin_src ~GTK::Args#inspect~
+{:state=>{:entity_id=>1, :tick_count=>0, :__thrash_count__=>{}, :player=>{:x=>120, :y=>280, :w=>100, :h=>80, :speed=>10, :path=>"sprites/misc/dragon-0.png"}, :fireballs=>[], :targets=>[{:x=>1070.0, :y=>355, :w=>64, :h=>64, :path=>"sprites/target.png"}, {:x=>1165.0, :y=>210, :w=>64, :h=>64, :path=>"sprites/target.png"}, {:x=>1104.0, :y=>614, :w=>64, :h=>64, :path=>"sprites/target.png"}], :score=>0}, :temp_state=>{}, :inputs=>{:controller_one=>{:key_down=>{}, :key_held=>{}, :key_up=>{}}, :controller_two=>{:key_down=>{}, :key_held=>{}, :key_up=>{}}, :controller_three=>{:key_down=>{}, :key_held=>{}, :key_up=>{}}, :controller_four=>{:key_down=>{}, :key_held=>{}, :key_up=>{}}, :keyboard=>{:key_up=>{:truthy_keys=>[]}, :key_held=>{:raw_key=>303, :char=>303, :truthy_keys=>[:raw_key, :char]}, :key_down=>{:truthy_keys=>[]}, :has_focus=>false}, :mouse=>{:x=>1278.0, :y=>608.0, :moved=>nil, :moved_at=>825, :has_focus=>false}, :text=>[]}, :passes=>[], :outputs=>{:solids=>[], :sprites=>[{...}, {...}, {...}, {...}], :lines=>[], :labels=>[{:x=>40, :y=>680, :text=>"Score: 0", :size_enum=>3}], :sounds=>[], :borders=>[], :primitives=>[], :static_solids=>[], :static_borders=>[], :static_sprites=>[], :static_lines=>[], :static_labels=>[], :static_primitives=>[]}, :grid=>{:left_margin=>0.0, :device_height=>720, :allscreen_bottom=>0, :device_width=>1280, :bottom=>0.0, :allscreen_left=>0, :allscreen_width=>1280, :allscreen_right=>1280, :ffi_draw=>"", :center_x=>640.0, :native_height=>720, :origin_x=>0.0, :allscreen_top=>720, :native_width=>1280, :bottom_margin=>0.0, :origin_y=>720, :native_scale=>1.0, :native_scale_enum=>100, :left=>0.0, :allscreen_offset_y=>0, :allscreen_offset_x=>0, :right=>1280, :allscreen_height=>720, :top=>720, :device_bottom=>0.0, :runtime=>{:argv=>"/home/ritog/coding/ruby-game/dragon-game/dragonruby", :platform=>"Linux", :required_files=>[], :reload_list_history=>{"app/main.rb"=>{:current=>{:path=>"app/main.rb", :global_at=>26356, :event=>:reload_completed}, :history=>[{:path=>"app/main.rb", :global_at=>-1, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>-1, :event=>:processing}, {:path=>"app/main.rb", :global_at=>-1, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>2518, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>2519, :event=>:processing}, {:path=>"app/main.rb", :global_at=>2520, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>2820, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>2821, :event=>:processing}, {:path=>"app/main.rb", :global_at=>2822, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>12000, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>12001, :event=>:processing}, {:path=>"app/main.rb", :global_at=>12002, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>12182, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>12183, :event=>:processing}, {:path=>"app/main.rb", :global_at=>12184, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>12301, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>12302, :event=>:processing}, {:path=>"app/main.rb", :global_at=>12303, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>12363, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>12364, :event=>:processing}, {:path=>"app/main.rb", :global_at=>12365, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>13263, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>13264, :event=>:processing}, {:path=>"app/main.rb", :global_at=>13265, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>13325, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>13326, :event=>:processing}, {:path=>"app/main.rb", :global_at=>13327, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>13565, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>13566, :event=>:processing}, {:path=>"app/main.rb", :global_at=>13567, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>14105, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>14106, :event=>:processing}, {:path=>"app/main.rb", :global_at=>14107, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>15187, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>15188, :event=>:processing}, {:path=>"app/main.rb", :global_at=>15189, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>15728, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>15729, :event=>:processing}, {:path=>"app/main.rb", :global_at=>15730, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>15850, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>15851, :event=>:processing}, {:path=>"app/main.rb", :global_at=>15852, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>26112, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>26113, :event=>:processing}, {:path=>"app/main.rb", :global_at=>26114, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>26354, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>26355, :event=>:processing}, {:path=>"app/main.rb", :global_at=>26356, :event=>:reload_completed}]}}}, :device_top=>720, :name=>:bottom_left, :device_right=>1280, :device_left=>0.0, :center=>[640.0, 360.0], :center_y=>360.0, :rect=>[0.0, 0.0, 1280, 720]}}
+#+end_src ~GTK::Args#inspect~ for :outp method missing on ~GTK::Args~
+
+** Did you mean?
+Here's a list of methods that kind of look like :outp.
+*** :outputs, *** :outputs=
+** Backtrace:
+*** app/main.rb:114:in tick
+*** app/main.rb:118 (26357)
+? 000445 [Engine] Marked app/main.rb for reload. (26716)
+- 000445 [Game] * EXCEPTION:
+* ERROR:
+{}
+
+I don't know how to use the above Hash with SDL's FFI. Please
+add a method on the object called ~primitive_marker~ that
+returns :solid, :sprite, :label, :line, or :border. If the object
+is a Hash, please add { primitive_marker: :PRIMITIVE_SYMBOL } to the Hash.
+
+
+** Backtrace:
+*** app/main.rb:120 (26719)
+? 000448 [Engine] Marked app/main.rb for reload. (26896)
+? 000448 [Engine] RNG seed has been set to 1672814276.
+- 000448 [Game] * EXCEPTION:
+* ERROR:
+{:x=>40}
+
+I don't know how to use the above Hash with SDL's FFI. Please
+add a method on the object called ~primitive_marker~ that
+returns :solid, :sprite, :label, :line, or :border. If the object
+is a Hash, please add { primitive_marker: :PRIMITIVE_SYMBOL } to the Hash.
+
+
+** Backtrace:
+*** app/main.rb:120 (26899)
+- 000451 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 117:3: syntax error, unexpected '}'
+line 119:10: syntax error, unexpected end of file, expecting keyword_end
+
+
+
+** Backtrace:
+*** app/main.rb:120 (27078)
+? 000456 [Engine] Marked app/main.rb for reload. (27378)
+- 000456 [Game] Game state and exception will be written to logs/exceptions/game_state_1.txt and logs/exceptions/current.txt.
+- 000456 [Game] * EXCEPTION:
+* ERROR - :gri method missing on ~GTK::Args~.
+The method named
+  :gri
+doesn't exist on
+  [GTK::Args].
+#+begin_src ~GTK::Args#inspect~
+{:state=>{:entity_id=>1, :tick_count=>1, :__thrash_count__=>{}, :player=>{:x=>120, :y=>280, :w=>100, :h=>80, :speed=>10, :path=>"sprites/misc/dragon-0.png"}, :fireballs=>[], :targets=>[{:x=>1070.0, :y=>355, :w=>64, :h=>64, :path=>"sprites/target.png"}, {:x=>1165.0, :y=>210, :w=>64, :h=>64, :path=>"sprites/target.png"}, {:x=>1104.0, :y=>614, :w=>64, :h=>64, :path=>"sprites/target.png"}], :score=>0}, :temp_state=>{}, :inputs=>{:controller_one=>{:key_down=>{}, :key_held=>{}, :key_up=>{}}, :controller_two=>{:key_down=>{}, :key_held=>{}, :key_up=>{}}, :controller_three=>{:key_down=>{}, :key_held=>{}, :key_up=>{}}, :controller_four=>{:key_down=>{}, :key_held=>{}, :key_up=>{}}, :keyboard=>{:key_up=>{:truthy_keys=>[]}, :key_held=>{:truthy_keys=>[]}, :key_down=>{:truthy_keys=>[]}, :has_focus=>false}, :mouse=>{:x=>1278.0, :y=>608.0, :moved=>nil, :moved_at=>825, :has_focus=>false}, :text=>[]}, :passes=>[], :outputs=>{:solids=>[], :sprites=>[{...}, {...}, {...}, {...}], :lines=>[], :labels=>[{:x=>40, :y=>680, :text=>"Score: 0", :size_enum=>3}], :sounds=>[], :borders=>[], :primitives=>[], :static_solids=>[], :static_borders=>[], :static_sprites=>[], :static_lines=>[], :static_labels=>[], :static_primitives=>[]}, :grid=>{:left_margin=>0.0, :device_height=>720, :allscreen_bottom=>0, :device_width=>1280, :bottom=>0.0, :allscreen_left=>0, :allscreen_width=>1280, :allscreen_right=>1280, :ffi_draw=>"", :center_x=>640.0, :native_height=>720, :origin_x=>0.0, :allscreen_top=>720, :native_width=>1280, :bottom_margin=>0.0, :origin_y=>720, :native_scale=>1.0, :native_scale_enum=>100, :left=>0.0, :allscreen_offset_y=>0, :allscreen_offset_x=>0, :right=>1280, :allscreen_height=>720, :top=>720, :device_bottom=>0.0, :runtime=>{:argv=>"/home/ritog/coding/ruby-game/dragon-game/dragonruby", :platform=>"Linux", :required_files=>[], :reload_list_history=>{"app/main.rb"=>{:current=>{:path=>"app/main.rb", :global_at=>27380, :event=>:reload_completed}, :history=>[{:path=>"app/main.rb", :global_at=>-1, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>-1, :event=>:processing}, {:path=>"app/main.rb", :global_at=>-1, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>2518, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>2519, :event=>:processing}, {:path=>"app/main.rb", :global_at=>2520, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>2820, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>2821, :event=>:processing}, {:path=>"app/main.rb", :global_at=>2822, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>12000, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>12001, :event=>:processing}, {:path=>"app/main.rb", :global_at=>12002, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>12182, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>12183, :event=>:processing}, {:path=>"app/main.rb", :global_at=>12184, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>12301, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>12302, :event=>:processing}, {:path=>"app/main.rb", :global_at=>12303, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>12363, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>12364, :event=>:processing}, {:path=>"app/main.rb", :global_at=>12365, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>13263, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>13264, :event=>:processing}, {:path=>"app/main.rb", :global_at=>13265, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>13325, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>13326, :event=>:processing}, {:path=>"app/main.rb", :global_at=>13327, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>13565, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>13566, :event=>:processing}, {:path=>"app/main.rb", :global_at=>13567, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>14105, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>14106, :event=>:processing}, {:path=>"app/main.rb", :global_at=>14107, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>15187, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>15188, :event=>:processing}, {:path=>"app/main.rb", :global_at=>15189, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>15728, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>15729, :event=>:processing}, {:path=>"app/main.rb", :global_at=>15730, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>15850, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>15851, :event=>:processing}, {:path=>"app/main.rb", :global_at=>15852, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>26112, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>26113, :event=>:processing}, {:path=>"app/main.rb", :global_at=>26114, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>26354, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>26355, :event=>:processing}, {:path=>"app/main.rb", :global_at=>26356, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>26716, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>26717, :event=>:processing}, {:path=>"app/main.rb", :global_at=>26718, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>26896, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>26897, :event=>:processing}, {:path=>"app/main.rb", :global_at=>26898, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>27378, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>27379, :event=>:processing}, {:path=>"app/main.rb", :global_at=>27380, :event=>:reload_completed}]}}}, :device_top=>720, :name=>:bottom_left, :device_right=>1280, :device_left=>0.0, :center=>[640.0, 360.0], :center_y=>360.0, :rect=>[0.0, 0.0, 1280, 720]}}
+#+end_src ~GTK::Args#inspect~ for :gri method missing on ~GTK::Args~
+** Backtrace:
+*** app/main.rb:116:in tick
+*** app/main.rb:121 (27381)
+- 000457 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 117:3: syntax error, unexpected '}'
+line 119:10: syntax error, unexpected end of file, expecting keyword_end
+
+
+
+** Backtrace:
+*** app/main.rb:121 (27438)
+? 000460 [Engine] Marked app/main.rb for reload. (27618)
+? 000460 [Engine] RNG seed has been set to 1672814276.
+- 000460 [Game] * EXCEPTION:
+* ERROR:
+{:x=>40, :y=>640}
+
+I don't know how to use the above Hash with SDL's FFI. Please
+add a method on the object called ~primitive_marker~ that
+returns :solid, :sprite, :label, :line, or :border. If the object
+is a Hash, please add { primitive_marker: :PRIMITIVE_SYMBOL } to the Hash.
+
+
+** Backtrace:
+*** app/main.rb:121 (27621)
+- 000464 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 117:2: syntax error, unexpected '\n'
+line 119:10: syntax error, unexpected end of file, expecting keyword_end
+
+
+
+** Backtrace:
+*** app/main.rb:121 (27859)
+? 000471 [Engine] Marked app/main.rb for reload. (28279)
+? 000475 [Engine] Marked app/main.rb for reload. (28519)
+? 000475 [Engine] RNG seed has been set to 1672814276.
+? 000478 [Engine] Marked app/main.rb for reload. (28701)
+? 000478 [Engine] RNG seed has been set to 1672814276.
+? 000481 [Engine] Marked app/main.rb for reload. (28883)
+? 000481 [Engine] RNG seed has been set to 1672814276.
+? 000485 [Engine] Marked app/main.rb for reload. (29125)
+? 000485 [Engine] RNG seed has been set to 1672814276.
+? 000486 [Engine] Marked app/main.rb for reload. (29187)
+? 000486 [Engine] RNG seed has been set to 1672814276.
+? 000489 [Engine] Marked app/main.rb for reload. (29369)
+? 000489 [Engine] RNG seed has been set to 1672814276.
+? 000492 [Engine] Marked app/main.rb for reload. (29551)
+? 000492 [Engine] RNG seed has been set to 1672814276.
+- 000493 [Game] 
+- 000493 [Game] * WARNING: ~Hash#label~ is deprecated becuase it's poorly named. Use ~Hash#label!~ instead.
+This method will stay here for backwards compatibility. But, consider using one of the following methods:
+** Option 1: ~:label! &OPTIONAL additional_keys_to_merge~
+This will mutate the current hash in-place. It's identical to the current method you're using,
+but better signifies that a side effect is occuring (because of the ~!~ at the end).
+*** Example
+Here is an example of how your code may change.
+**** Before
+#+begin_src ruby
+  def tick args
+    args.state.primitive_style  ||= { r: 255, g: 255, b: 255 }
+
+    # here ~Hash#merge!~ and ~Hash#border~ are used in combination
+    args.state.some_primitive ||= { x: 8, y: 8, w: 32, h: 32 }.merge!(primitive_style).label
+
+    args.outputs.primitives << args.state.some_primitive
+  end
+#+end_src
+**** After
+#+begin_src ruby
+  def tick args
+    args.state.primitive_style  ||= { r: 255, g: 255, b: 255 }
+
+    # if you use ~Hash#label!~ you can combine the
+    # ~Hash#merge!~ and ~Hash#label~ method calls
+    args.state.some_label ||= { x: 8, y: 8, w: 32, h: 32 }.label! primitive_style
+
+    args.outputs.primitives << args.state.button_label
+  end
+#+end_src
+** Option 2: ~:to_label &OPTIONAL additional_keys_to_merge~
+This will return a new ~Hash~ leaving the original *untouched*.
+** Caller:
+If you decide to fix this error now, you can run ~Log.reset~ to invalidate this warning
+and be notified of other places you're using this function.
+*** app/main.rb:122
+- 000493 [Game] 
+- 000493 [Game] [Message ID: [:consider_label!]]
+- 000493 [Game] 
+? 000495 [Engine] Marked app/main.rb for reload. (29673)
+? 000495 [Engine] RNG seed has been set to 1672814276.
+? 000507 [Engine] Marked app/main.rb for reload. (30395)
+? 000507 [Engine] RNG seed has been set to 1672814276.
+- 000510 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 121:3: syntax error, unexpected keyword_end
+line 122:10: syntax error, unexpected end of file, expecting keyword_end
+
+
+
+** Backtrace:
+*** app/main.rb:123 (30577)
+? 000512 [Engine] Marked app/main.rb for reload. (30697)
+? 000512 [Engine] RNG seed has been set to 1672814276.
+- 000512 [Game] * EXCEPTION:
+* ERROR:
+{}
+
+I don't know how to use the above Hash with SDL's FFI. Please
+add a method on the object called ~primitive_marker~ that
+returns :solid, :sprite, :label, :line, or :border. If the object
+is a Hash, please add { primitive_marker: :PRIMITIVE_SYMBOL } to the Hash.
+
+
+** Backtrace:
+*** app/main.rb:125 (30700)
+? 000519 [Engine] Marked app/main.rb for reload. (31119)
+- 000519 [Game] * EXCEPTION:
+* ERROR:
+{:x=>40, :y=>{:state=>{:entity_id=>1, :tick_count=>1, :__thrash_count__=>{}, :player=>{:x=>120, :y=>280, :w=>100, :h=>80, :speed=>10, :path=>"sprites/misc/dragon-0.png"}, :fireballs=>[], :targets=>[{:x=>1070.0, :y=>355, :w=>64, :h=>64, :path=>"sprites/target.png"}, {:x=>1165.0, :y=>210, :w=>64, :h=>64, :path=>"sprites/target.png"}, {:x=>1104.0, :y=>614, :w=>64, :h=>64, :path=>"sprites/target.png"}], :score=>0}, :temp_state=>{}, :inputs=>{:controller_one=>{:key_down=>{}, :key_held=>{}, :key_up=>{}}, :controller_two=>{:key_down=>{}, :key_held=>{}, :key_up=>{}}, :controller_three=>{:key_down=>{}, :key_held=>{}, :key_up=>{}}, :controller_four=>{:key_down=>{}, :key_held=>{}, :key_up=>{}}, :keyboard=>{:key_up=>{:truthy_keys=>[]}, :key_held=>{:truthy_keys=>[]}, :key_down=>{:truthy_keys=>[]}, :has_focus=>false}, :mouse=>{:x=>1278.0, :y=>608.0, :moved=>nil, :moved_at=>825, :has_focus=>false}, :text=>[]}, :passes=>[{:solids=>[], :sprites=>[{:x=>120, :y=>280, :w=>100, :h=>80, :speed=>10, :path=>"sprites/misc/dragon-0.png"}, {:x=>1070.0, :y=>355, :w=>64, :h=>64, :path=>"sprites/target.png"}, {:x=>1165.0, :y=>210, :w=>64, :h=>64, :path=>"sprites/target.png"}, {:x=>1104.0, :y=>614, :w=>64, :h=>64, :path=>"sprites/target.png"}], :lines=>[], :labels=>[{:x=>40, :y=>680, :text=>"Score: 0", :size_enum=>3}], :sounds=>[], :borders=>[], :primitives=>[], :static_solids=>[], :static_borders=>[], :static_sprites=>[], :static_lines=>[], :static_labels=>[], :static_primitives=>[]}], :outputs=>{:solids=>[], :sprites=>[{...}, {...}, {...}, {...}], :lines=>[], :labels=>[{:x=>40, :y=>680, :text=>"Score: 0", :size_enum=>3}], :sounds=>[], :borders=>[], :primitives=>[], :static_solids=>[], :static_borders=>[], :static_sprites=>[], :static_lines=>[], :static_labels=>[], :static_primitives=>[]}, :grid=>{:left_margin=>0.0, :device_height=>720, :allscreen_bottom=>0, :device_width=>1280, :bottom=>0.0, :allscreen_left=>0, :allscreen_width=>1280, :allscreen_right=>1280, :ffi_draw=>"", :center_x=>640.0, :native_height=>720, :origin_x=>0.0, :allscreen_top=>720, :native_width=>1280, :bottom_margin=>0.0, :origin_y=>720, :native_scale=>1.0, :native_scale_enum=>100, :left=>0.0, :allscreen_offset_y=>0, :allscreen_offset_x=>0, :right=>1280, :allscreen_height=>720, :top=>720, :device_bottom=>0.0, :runtime=>{:argv=>"/home/ritog/coding/ruby-game/dragon-game/dragonruby", :platform=>"Linux", :required_files=>[], :reload_list_history=>{"app/main.rb"=>{:current=>{:path=>"app/main.rb", :global_at=>31121, :event=>:reload_completed}, :history=>[{:path=>"app/main.rb", :global_at=>-1, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>-1, :event=>:processing}, {:path=>"app/main.rb", :global_at=>-1, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>2518, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>2519, :event=>:processing}, {:path=>"app/main.rb", :global_at=>2520, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>2820, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>2821, :event=>:processing}, {:path=>"app/main.rb", :global_at=>2822, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>12000, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>12001, :event=>:processing}, {:path=>"app/main.rb", :global_at=>12002, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>12182, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>12183, :event=>:processing}, {:path=>"app/main.rb", :global_at=>12184, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>12301, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>12302, :event=>:processing}, {:path=>"app/main.rb", :global_at=>12303, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>12363, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>12364, :event=>:processing}, {:path=>"app/main.rb", :global_at=>12365, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>13263, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>13264, :event=>:processing}, {:path=>"app/main.rb", :global_at=>13265, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>13325, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>13326, :event=>:processing}, {:path=>"app/main.rb", :global_at=>13327, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>13565, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>13566, :event=>:processing}, {:path=>"app/main.rb", :global_at=>13567, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>14105, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>14106, :event=>:processing}, {:path=>"app/main.rb", :global_at=>14107, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>15187, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>15188, :event=>:processing}, {:path=>"app/main.rb", :global_at=>15189, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>15728, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>15729, :event=>:processing}, {:path=>"app/main.rb", :global_at=>15730, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>15850, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>15851, :event=>:processing}, {:path=>"app/main.rb", :global_at=>15852, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>26112, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>26113, :event=>:processing}, {:path=>"app/main.rb", :global_at=>26114, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>26354, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>26355, :event=>:processing}, {:path=>"app/main.rb", :global_at=>26356, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>26716, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>26717, :event=>:processing}, {:path=>"app/main.rb", :global_at=>26718, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>26896, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>26897, :event=>:processing}, {:path=>"app/main.rb", :global_at=>26898, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>27378, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>27379, :event=>:processing}, {:path=>"app/main.rb", :global_at=>27380, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>27618, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>27619, :event=>:processing}, {:path=>"app/main.rb", :global_at=>27620, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>28279, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>28280, :event=>:processing}, {:path=>"app/main.rb", :global_at=>28281, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>28519, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>28520, :event=>:processing}, {:path=>"app/main.rb", :global_at=>28521, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>28701, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>28702, :event=>:processing}, {:path=>"app/main.rb", :global_at=>28703, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>28883, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>28884, :event=>:processing}, {:path=>"app/main.rb", :global_at=>28885, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>29125, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>29126, :event=>:processing}, {:path=>"app/main.rb", :global_at=>29127, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>29187, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>29188, :event=>:processing}, {:path=>"app/main.rb", :global_at=>29189, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>29369, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>29370, :event=>:processing}, {:path=>"app/main.rb", :global_at=>29371, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>29551, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>29552, :event=>:processing}, {:path=>"app/main.rb", :global_at=>29553, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>29673, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>29674, :event=>:processing}, {:path=>"app/main.rb", :global_at=>29675, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>30395, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>30396, :event=>:processing}, {:path=>"app/main.rb", :global_at=>30397, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>30697, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>30698, :event=>:processing}, {:path=>"app/main.rb", :global_at=>30699, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>31119, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>31120, :event=>:processing}, {:path=>"app/main.rb", :global_at=>31121, :event=>:reload_completed}]}}}, :device_top=>720, :name=>:bottom_left, :device_right=>1280, :device_left=>0.0, :center=>[640.0, 360.0], :center_y=>360.0, :rect=>[0.0, 0.0, 1280, 720]}}}
+
+I don't know how to use the above Hash with SDL's FFI. Please
+add a method on the object called ~primitive_marker~ that
+returns :solid, :sprite, :label, :line, or :border. If the object
+is a Hash, please add { primitive_marker: :PRIMITIVE_SYMBOL } to the Hash.
+
+
+** Backtrace:
+*** app/main.rb:126 (31122)
+? 000522 [Engine] Marked app/main.rb for reload. (31299)
+? 000522 [Engine] RNG seed has been set to 1672814276.
+- 000522 [Game] * EXCEPTION:
+* ERROR:
+{:x=>40, :y=>{:left_margin=>0.0, :device_height=>720, :allscreen_bottom=>0, :device_width=>1280, :bottom=>0.0, :allscreen_left=>0, :allscreen_width=>1280, :allscreen_right=>1280, :ffi_draw=>"", :center_x=>640.0, :native_height=>720, :origin_x=>0.0, :allscreen_top=>720, :native_width=>1280, :bottom_margin=>0.0, :origin_y=>720, :native_scale=>1.0, :native_scale_enum=>100, :left=>0.0, :allscreen_offset_y=>0, :allscreen_offset_x=>0, :right=>1280, :allscreen_height=>720, :top=>720, :device_bottom=>0.0, :runtime=>{:argv=>"/home/ritog/coding/ruby-game/dragon-game/dragonruby", :platform=>"Linux", :required_files=>[], :reload_list_history=>{"app/main.rb"=>{:current=>{:path=>"app/main.rb", :global_at=>31301, :event=>:reload_completed}, :history=>[{:path=>"app/main.rb", :global_at=>-1, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>-1, :event=>:processing}, {:path=>"app/main.rb", :global_at=>-1, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>2518, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>2519, :event=>:processing}, {:path=>"app/main.rb", :global_at=>2520, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>2820, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>2821, :event=>:processing}, {:path=>"app/main.rb", :global_at=>2822, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>12000, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>12001, :event=>:processing}, {:path=>"app/main.rb", :global_at=>12002, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>12182, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>12183, :event=>:processing}, {:path=>"app/main.rb", :global_at=>12184, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>12301, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>12302, :event=>:processing}, {:path=>"app/main.rb", :global_at=>12303, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>12363, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>12364, :event=>:processing}, {:path=>"app/main.rb", :global_at=>12365, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>13263, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>13264, :event=>:processing}, {:path=>"app/main.rb", :global_at=>13265, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>13325, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>13326, :event=>:processing}, {:path=>"app/main.rb", :global_at=>13327, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>13565, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>13566, :event=>:processing}, {:path=>"app/main.rb", :global_at=>13567, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>14105, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>14106, :event=>:processing}, {:path=>"app/main.rb", :global_at=>14107, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>15187, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>15188, :event=>:processing}, {:path=>"app/main.rb", :global_at=>15189, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>15728, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>15729, :event=>:processing}, {:path=>"app/main.rb", :global_at=>15730, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>15850, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>15851, :event=>:processing}, {:path=>"app/main.rb", :global_at=>15852, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>26112, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>26113, :event=>:processing}, {:path=>"app/main.rb", :global_at=>26114, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>26354, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>26355, :event=>:processing}, {:path=>"app/main.rb", :global_at=>26356, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>26716, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>26717, :event=>:processing}, {:path=>"app/main.rb", :global_at=>26718, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>26896, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>26897, :event=>:processing}, {:path=>"app/main.rb", :global_at=>26898, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>27378, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>27379, :event=>:processing}, {:path=>"app/main.rb", :global_at=>27380, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>27618, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>27619, :event=>:processing}, {:path=>"app/main.rb", :global_at=>27620, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>28279, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>28280, :event=>:processing}, {:path=>"app/main.rb", :global_at=>28281, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>28519, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>28520, :event=>:processing}, {:path=>"app/main.rb", :global_at=>28521, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>28701, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>28702, :event=>:processing}, {:path=>"app/main.rb", :global_at=>28703, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>28883, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>28884, :event=>:processing}, {:path=>"app/main.rb", :global_at=>28885, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>29125, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>29126, :event=>:processing}, {:path=>"app/main.rb", :global_at=>29127, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>29187, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>29188, :event=>:processing}, {:path=>"app/main.rb", :global_at=>29189, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>29369, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>29370, :event=>:processing}, {:path=>"app/main.rb", :global_at=>29371, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>29551, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>29552, :event=>:processing}, {:path=>"app/main.rb", :global_at=>29553, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>29673, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>29674, :event=>:processing}, {:path=>"app/main.rb", :global_at=>29675, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>30395, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>30396, :event=>:processing}, {:path=>"app/main.rb", :global_at=>30397, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>30697, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>30698, :event=>:processing}, {:path=>"app/main.rb", :global_at=>30699, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>31119, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>31120, :event=>:processing}, {:path=>"app/main.rb", :global_at=>31121, :event=>:reload_completed}, {:path=>"app/main.rb", :global_at=>31299, :event=>:reload_queued}, {:path=>"app/main.rb", :global_at=>31300, :event=>:processing}, {:path=>"app/main.rb", :global_at=>31301, :event=>:reload_completed}]}}}, :device_top=>720, :name=>:bottom_left, :device_right=>1280, :device_left=>0.0, :center=>[640.0, 360.0], :center_y=>360.0, :rect=>[0.0, 0.0, 1280, 720]}}
+
+I don't know how to use the above Hash with SDL's FFI. Please
+add a method on the object called ~primitive_marker~ that
+returns :solid, :sprite, :label, :line, or :border. If the object
+is a Hash, please add { primitive_marker: :PRIMITIVE_SYMBOL } to the Hash.
+
+
+** Backtrace:
+*** app/main.rb:126 (31302)
+- 000523 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 122:3: syntax error, unexpected '}'
+line 124:10: syntax error, unexpected end of file, expecting keyword_end
+
+
+
+** Backtrace:
+*** app/main.rb:126 (31361)
+? 000525 [Engine] Marked app/main.rb for reload. (31481)
+- 000525 [Game] * EXCEPTION:
+* ERROR:
+{:x=>40, :y=>620}
+
+I don't know how to use the above Hash with SDL's FFI. Please
+add a method on the object called ~primitive_marker~ that
+returns :solid, :sprite, :label, :line, or :border. If the object
+is a Hash, please add { primitive_marker: :PRIMITIVE_SYMBOL } to the Hash.
+
+
+** Backtrace:
+*** app/main.rb:126 (31484)
+- 000530 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 123:3: syntax error, unexpected '}'
+line 125:10: syntax error, unexpected end of file, expecting keyword_end
+
+
+
+** Backtrace:
+*** app/main.rb:126 (31781)
+? 000535 [Engine] Marked app/main.rb for reload. (32081)
+? 000535 [Engine] RNG seed has been set to 1672814276.
+? 000536 [Engine] Marked app/main.rb for reload. (32143)
+? 000536 [Engine] RNG seed has been set to 1672814276.
+? 000540 [Engine] Marked app/main.rb for reload. (32385)
+? 000540 [Engine] RNG seed has been set to 1672814276.
+? 000545 [Engine] Marked app/main.rb for reload. (32687)
+? 000545 [Engine] RNG seed has been set to 1672814276.
+? 000547 [Engine] Marked app/main.rb for reload. (32809)
+? 000547 [Engine] RNG seed has been set to 1672814276.
+? 000554 [Engine] Marked app/main.rb for reload. (33231)
+? 000554 [Engine] RNG seed has been set to 1672814276.
+- 000554 [Game] Game state and exception will be written to logs/exceptions/game_state_0.txt and logs/exceptions/current.txt.
+- 000554 [Game] * EXCEPTION:
+* ERROR:
+Undefined method s for main.
+
+
+** Backtrace:
+*** app/main.rb:122:in tick
+*** app/main.rb:127 (33234)
+? 000557 [Engine] Marked app/main.rb for reload. (33412)
+- 000557 [Game] Game state and exception will be written to logs/exceptions/game_state_1.txt and logs/exceptions/current.txt.
+- 000557 [Game] * EXCEPTION:
+* ERROR:
+Undefined method s for main.
+
+
+** Backtrace:
+*** app/main.rb:122:in tick
+*** app/main.rb:127 (33415)
+? 000560 [Engine] Marked app/main.rb for reload. (33592)
+? 000560 [Engine] RNG seed has been set to 1672814276.
+- 000560 [Game] Game state and exception will be written to logs/exceptions/game_state_0.txt and logs/exceptions/current.txt.
+- 000560 [Game] KALLER: [] Array
+- 000560 [Game] * EXCEPTION POSSIBLY CAUSED BY CALLING ~gtk.reset~: maybe use ~$gtk.reset_next_tick~ instead.
+An exception occurred soon after ~$gtk.reset~ was invoked.
+
+Keep in mind that ~$gtk.reset~ doesn't stop the rest of your ~tick~ method from being invoked.
+
+You may have attempted to interact with properties on ~args.state~ that no longer have a value.
+
+There are a few ways to fix exceptions that fall into this category:
+
+1. Wherever you are using ~$gtk.reset~ within ~tick~, replace
+   with ~$gtk.reset_next_tick~ (this function will tell DragonRuby to
+   reset on the next frame before invoking your ~tick~ method).
+2. Anywhere you are using ~$gtk.reset~, immediately set default values for
+   properties on ~args.state~ that are needed to complete the execution
+   of the rest of your ~tick~ function successfully.
+3. Do not use ~$gtk.reset~ and instead create a function that reinitializes your game
+   and ensures it has a consistent/valid state.
+
+   Take a look at the following sample apps for insights on how to do this:
+   - =./samples/99_genre_boss_battle/boss_battle_game_jam/app/main.rb=
+   - =./samples/99_genre_platformer/shadows/app/main.rb=
+
+** NOTE:
+The options above are ordered by quickest to implement (but probably not
+bulletproof), to more work to implement (but a better design long term).
+
+* EXCEPTION THROWN:
+* ERROR:
+Undefined method s for main.
+
+
+** Backtrace:
+*** app/main.rb:122:in tick
+*** app/main.rb:127
+
+* Backtrace ~$gtk.reset~ last invocation: (33595)
+? 000562 [Engine] Marked app/main.rb for reload. (33714)
+- 000562 [Game] Game state and exception will be written to logs/exceptions/game_state_1.txt and logs/exceptions/current.txt.
+- 000562 [Game] * EXCEPTION:
+* ERROR:
+Undefined method s for main.
+
+
+** Backtrace:
+*** app/main.rb:122:in tick
+*** app/main.rb:127 (33717)
+? 000566 [Engine] Marked app/main.rb for reload. (33954)
+? 000566 [Engine] RNG seed has been set to 1672814276.
+- 000566 [Game] Game state and exception will be written to logs/exceptions/game_state_0.txt and logs/exceptions/current.txt.
+- 000566 [Game] KALLER: [] Array
+- 000566 [Game] * EXCEPTION POSSIBLY CAUSED BY CALLING ~gtk.reset~: maybe use ~$gtk.reset_next_tick~ instead.
+An exception occurred soon after ~$gtk.reset~ was invoked.
+
+Keep in mind that ~$gtk.reset~ doesn't stop the rest of your ~tick~ method from being invoked.
+
+You may have attempted to interact with properties on ~args.state~ that no longer have a value.
+
+There are a few ways to fix exceptions that fall into this category:
+
+1. Wherever you are using ~$gtk.reset~ within ~tick~, replace
+   with ~$gtk.reset_next_tick~ (this function will tell DragonRuby to
+   reset on the next frame before invoking your ~tick~ method).
+2. Anywhere you are using ~$gtk.reset~, immediately set default values for
+   properties on ~args.state~ that are needed to complete the execution
+   of the rest of your ~tick~ function successfully.
+3. Do not use ~$gtk.reset~ and instead create a function that reinitializes your game
+   and ensures it has a consistent/valid state.
+
+   Take a look at the following sample apps for insights on how to do this:
+   - =./samples/99_genre_boss_battle/boss_battle_game_jam/app/main.rb=
+   - =./samples/99_genre_platformer/shadows/app/main.rb=
+
+** NOTE:
+The options above are ordered by quickest to implement (but probably not
+bulletproof), to more work to implement (but a better design long term).
+
+* EXCEPTION THROWN:
+* ERROR:
+Undefined method s for main.
+
+
+** Backtrace:
+*** app/main.rb:122:in tick
+*** app/main.rb:127
+
+* Backtrace ~$gtk.reset~ last invocation: (33957)
+? 000568 [Engine] Marked app/main.rb for reload. (34076)
+- 000568 [Game] Game state and exception will be written to logs/exceptions/game_state_1.txt and logs/exceptions/current.txt.
+- 000568 [Game] * EXCEPTION:
+* ERROR:
+Undefined method s for main.
+
+
+** Backtrace:
+*** app/main.rb:122:in tick
+*** app/main.rb:127 (34079)
+? 000576 [Engine] Marked app/main.rb for reload. (34556)
+? 000576 [Engine] RNG seed has been set to 1672814276.
+? 000580 [Engine] Marked app/main.rb for reload. (34798)
+? 000580 [Engine] RNG seed has been set to 1672814276.
+? 000608 [Engine] Marked app/main.rb for reload. (36480)
+? 000608 [Engine] RNG seed has been set to 1672814276.
+? 000610 [Engine] Marked app/main.rb for reload. (36602)
+? 000610 [Engine] RNG seed has been set to 1672814276.
+? 000612 [Engine] Marked app/main.rb for reload. (36724)
+? 000612 [Engine] RNG seed has been set to 1672814276.
+? 000751 [Engine] Marked app/main.rb for reload. (45066)
+? 000751 [Engine] RNG seed has been set to 1672814276.
+- 000756 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 128:10: syntax error, unexpected end of file, expecting keyword_end
+
+
+
+** Backtrace:
+*** app/main.rb:128 (45368)
+- 000757 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 128:10: syntax error, unexpected end of file, expecting keyword_end
+
+
+
+** Backtrace:
+*** app/main.rb:128 (45428)
+- 000761 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 128:10: syntax error, unexpected end of file, expecting keyword_end
+
+
+
+** Backtrace:
+*** app/main.rb:128 (45667)
+- 000766 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 128:10: syntax error, unexpected end of file, expecting keyword_end
+
+
+
+** Backtrace:
+*** app/main.rb:128 (45967)
+- 000769 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 92:36: syntax error, unexpected local variable or method
+line 128:3: syntax error, unexpected keyword_end, expecting end of file
+
+
+
+** Backtrace:
+*** app/main.rb:128 (46147)
+? 000772 [Engine] Marked app/main.rb for reload. (46327)
+? 000772 [Engine] RNG seed has been set to 1672814276.
+? 000773 [Engine] Marked app/main.rb for reload. (46389)
+? 000773 [Engine] RNG seed has been set to 1672814276.
+? 000777 [Engine] Marked app/main.rb for reload. (46630)
+? 000777 [Engine] RNG seed has been set to 1672814276.
+? 000780 [Engine] Marked app/main.rb for reload. (46812)
+? 000780 [Engine] RNG seed has been set to 1672814276.
+? 000787 [Engine] Marked app/main.rb for reload. (47234)
+? 000787 [Engine] RNG seed has been set to 1672814276.

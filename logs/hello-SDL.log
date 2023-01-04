@@ -452,3 +452,23 @@ bulletproof), to more work to implement (but a better design long term).
 ? 000483 [Engine] RNG seed has been set to 1672808042.
 ? 000490 [Engine] Marked app/main.rb for reload. (29419)
 ? 000490 [Engine] RNG seed has been set to 1672808042.
+? 000692 [Engine] Marked app/main.rb for reload. (41531)
+? 000692 [Engine] RNG seed has been set to 1672808042.
+? 000700 [Engine] Marked app/main.rb for reload. (42013)
+? 000700 [Engine] RNG seed has been set to 1672808042.
+? 000702 [Engine] Marked app/main.rb for reload. (42135)
+? 000702 [Engine] RNG seed has been set to 1672808042.
+? 000703 [Engine] Marked app/main.rb for reload. (42197)
+? 000703 [Engine] RNG seed has been set to 1672808042.
+? 000767 [Engine] Marked app/main.rb for reload. (46039)
+? 000767 [Engine] RNG seed has been set to 1672808042.
+- 000770 [Game] * EXCEPTION:
+** Failed to reload app/main.rb.
+line 2:13: syntax error, unexpected local variable or method, expecting keyword_end
+
+
+
+** Backtrace:
+*** app/main.rb:107 (46221)
+? 000772 [Engine] Marked app/main.rb for reload. (46341)
+? 000772 [Engine] RNG seed has been set to 1672808042.

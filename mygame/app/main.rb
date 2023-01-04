@@ -1,5 +1,5 @@
 def spawn_target(args)
-  size = 128
+  size = 64
   {
     x: rand(args.grid.w * 0.4) + args.grid.w * 0.6,
     y: rand(args.grid.h - size * 2) + size,
@@ -94,6 +94,7 @@ def tick args
       if args.geometry.intersect_rect?(target, fireball)
         target.dead = true
         fireball.dead = true
+        args.state.targets << spawn_target(args)
       end
     end
   end

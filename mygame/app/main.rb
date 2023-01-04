@@ -1,3 +1,5 @@
+FPS = 60
+
 def spawn_target(args)
   size = 64
   {
@@ -91,7 +93,7 @@ def game_over_stuff(args)
     if args.state.timer < -32 && fire_input?(args)
       $gtk.reset
     end
-  end
+end
 
 
 
@@ -113,7 +115,7 @@ def tick args
   ]
 
   args.state.score ||= 0
-  args.state.timer ||= 30 * 60
+  args.state.timer ||= 30 * FPS
 
   args.state.timer -= 1
 
@@ -168,7 +170,7 @@ def tick args
   labels << {
     x: args.grid.w - 40,
     y: args.grid.h - 40,
-    text: "Time left: #{(args.state.timer / 60).round}",
+    text: "Time left: #{(args.state.timer / FPS).round}",
     size_enum: 2,
     alignment_enum: 2,
   }

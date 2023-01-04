@@ -25,6 +25,44 @@ def tick args
   ]
 
   args.state.score ||= 0
+  args.state.timer ||= 30 * 60
+
+  args.state.timer -= 1
+
+  if args.state.timer < 0
+    labels = []
+    labels << {
+      x: 40,
+      y: args.grid.h - 40,
+      text: 'Game Over!',
+      size_enum: 9,
+    }
+    labels << {
+      x: 40,
+      y: args.grid.h - 132,
+      text: 'Fire to restart',
+      size_enum: 2,
+    }
+    labels << {
+      x: 40,
+      y: args.grid.h - 90,
+      text: "Score: #{args.state.score}",
+      size_enum: 4,
+    }
+
+    args.outputs.labels << labels
+
+    if args.inputs.keyboard.key_down.z ||
+      args.inputs.keyboard.key_down.j ||
+      args.inputs.controller_one.key_down.a
+      $gtk.reset
+    end
+
+    return
+
+  end
+
+
 
 
   if args.inputs.left and args.inputs.up

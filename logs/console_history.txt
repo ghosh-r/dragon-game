@@ -1,4 +1,7 @@
 $gtk.reset seed: 1672814276
+$gtk.grep_source [".handle_player_movement", '']
+$gtk.grep_source [".handle_", '']
+$gtk.reset seed: 1672814276
 $gtk.grep_source [".fire", '']
 $gtk.reset seed: 1672814276
 $gtk.grep_source [".s", '']

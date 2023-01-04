@@ -1524,3 +1524,109 @@ Undefined method fire for main.
 ? 009329 [Engine] Marked app/main.rb for reload. (559564)
 ? 009329 [Engine] RNG seed has been set to 1672814276.
 ? 009361 [Engine] RNG seed has been set to 1672814276.
+? 009534 [Engine] Marked app/main.rb for reload. (571866)
+? 009534 [Engine] RNG seed has been set to 1672814276.
+? 009539 [Engine] Marked app/main.rb for reload. (572168)
+? 009539 [Engine] RNG seed has been set to 1672814276.
+- 009539 [Game] Game state and exception will be written to logs/exceptions/game_state_0.txt and logs/exceptions/current.txt.
+- 009539 [Game] * EXCEPTION:
+* ERROR:
+Undefined method handle_ for main.
+
+
+** Backtrace:
+*** app/main.rb:71:in tick
+*** app/main.rb:123 (572171)
+? 009545 [Engine] Marked app/main.rb for reload. (572530)
+- 009545 [Game] Game state and exception will be written to logs/exceptions/game_state_1.txt and logs/exceptions/current.txt.
+- 009545 [Game] * EXCEPTION:
+* ERROR:
+Undefined method handle_player_movement for main.
+
+
+** Backtrace:
+*** app/main.rb:71:in tick
+*** app/main.rb:123 (572533)
+? 009552 [Engine] Marked app/main.rb for reload. (572947)
+? 009552 [Engine] RNG seed has been set to 1672814276.
+- 009552 [Game] Game state and exception will be written to logs/exceptions/game_state_0.txt and logs/exceptions/current.txt.
+- 009552 [Game] KALLER: [] Array
+- 009552 [Game] * EXCEPTION POSSIBLY CAUSED BY CALLING ~gtk.reset~: maybe use ~$gtk.reset_next_tick~ instead.
+An exception occurred soon after ~$gtk.reset~ was invoked.
+
+Keep in mind that ~$gtk.reset~ doesn't stop the rest of your ~tick~ method from being invoked.
+
+You may have attempted to interact with properties on ~args.state~ that no longer have a value.
+
+There are a few ways to fix exceptions that fall into this category:
+
+1. Wherever you are using ~$gtk.reset~ within ~tick~, replace
+   with ~$gtk.reset_next_tick~ (this function will tell DragonRuby to
+   reset on the next frame before invoking your ~tick~ method).
+2. Anywhere you are using ~$gtk.reset~, immediately set default values for
+   properties on ~args.state~ that are needed to complete the execution
+   of the rest of your ~tick~ function successfully.
+3. Do not use ~$gtk.reset~ and instead create a function that reinitializes your game
+   and ensures it has a consistent/valid state.
+
+   Take a look at the following sample apps for insights on how to do this:
+   - =./samples/99_genre_boss_battle/boss_battle_game_jam/app/main.rb=
+   - =./samples/99_genre_platformer/shadows/app/main.rb=
+
+** NOTE:
+The options above are ordered by quickest to implement (but probably not
+bulletproof), to more work to implement (but a better design long term).
+
+* EXCEPTION THROWN:
+* ERROR:
+Undefined method handle_player_movement for main.
+
+
+** Backtrace:
+*** app/main.rb:73:in tick
+*** app/main.rb:125
+
+* Backtrace ~$gtk.reset~ last invocation: (572950)
+- 009558 [Game] KALLER: [] Array
+- 009558 [Game] * EXCEPTION POSSIBLY CAUSED BY CALLING ~gtk.reset~: maybe use ~$gtk.reset_next_tick~ instead.
+An exception occurred soon after ~$gtk.reset~ was invoked.
+
+Keep in mind that ~$gtk.reset~ doesn't stop the rest of your ~tick~ method from being invoked.
+
+You may have attempted to interact with properties on ~args.state~ that no longer have a value.
+
+There are a few ways to fix exceptions that fall into this category:
+
+1. Wherever you are using ~$gtk.reset~ within ~tick~, replace
+   with ~$gtk.reset_next_tick~ (this function will tell DragonRuby to
+   reset on the next frame before invoking your ~tick~ method).
+2. Anywhere you are using ~$gtk.reset~, immediately set default values for
+   properties on ~args.state~ that are needed to complete the execution
+   of the rest of your ~tick~ function successfully.
+3. Do not use ~$gtk.reset~ and instead create a function that reinitializes your game
+   and ensures it has a consistent/valid state.
+
+   Take a look at the following sample apps for insights on how to do this:
+   - =./samples/99_genre_boss_battle/boss_battle_game_jam/app/main.rb=
+   - =./samples/99_genre_platformer/shadows/app/main.rb=
+
+** NOTE:
+The options above are ordered by quickest to implement (but probably not
+bulletproof), to more work to implement (but a better design long term).
+
+* EXCEPTION THROWN:
+** Failed to reload app/main.rb.
+line 125:10: syntax error, unexpected end of file, expecting keyword_end
+
+
+
+** Backtrace:
+*** app/main.rb:125
+
+* Backtrace ~$gtk.reset~ last invocation: (573309)
+? 009561 [Engine] Marked app/main.rb for reload. (573489)
+- 009561 [Game] * INFO: New methods discovered.
+** :handle_player_movement
+
+? 009564 [Engine] Marked app/main.rb for reload. (573668)
+? 009564 [Engine] RNG seed has been set to 1672814276.

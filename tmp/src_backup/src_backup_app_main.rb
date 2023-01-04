@@ -15,6 +15,56 @@ def fire_input?(args)
       args.inputs.controller_one.key_down.a
 end
 
+def handle_player_movement(args)
+  if args.inputs.left and args.inputs.up
+    args.state.player.x -= args.state.player.speed / 2
+    args.state.player.y += args.state.player.speed / 2
+  end
+
+  if args.inputs.left and args.inputs.down
+    args.state.player.x -= args.state.player.speed / 2
+    args.state.player.y -= args.state.player.speed / 2
+  end
+
+  if args.inputs.right and args.inputs.up
+    args.state.player.x += args.state.player.speed / 2
+    args.state.player.y += args.state.player.speed / 2
+  end
+
+  if args.inputs.right and args.inputs.down
+    args.state.player.x += args.state.player.speed / 2
+    args.state.player.y -= args.state.player.speed / 2
+  end
+
+  if args.inputs.left
+    args.state.player.x -= args.state.player.speed
+  elsif args.inputs.right
+    args.state.player.x += args.state.player.speed
+  end
+
+  if args.inputs.up
+    args.state.player.y += args.state.player.speed
+  elsif args.inputs.down
+    args.state.player.y -= args.state.player.speed
+  end
+
+  if args.state.player.x + args.state.player.w > args.grid.w
+    args.state.player.x = args.grid.w - args.state.player.w
+  end
+  
+  if args.state.player.x < 0
+    args.state.player.x = 0
+  end
+
+  if args.state.player.y + args.state.player.h > args.grid.h
+    args.state.player.y = args.grid.h - args.state.player.h
+  end
+
+  if args.state.player.y < 0
+    args.state.player.y = 0
+  end
+end
+
 def tick args
   args.state.player ||= {
     x: 120,
@@ -68,53 +118,7 @@ def tick args
 
 
 
-  if args.inputs.left and args.inputs.up
-    args.state.player.x -= args.state.player.speed / 2
-    args.state.player.y += args.state.player.speed / 2
-  end
-
-  if args.inputs.left and args.inputs.down
-    args.state.player.x -= args.state.player.speed / 2
-    args.state.player.y -= args.state.player.speed / 2
-  end
-
-  if args.inputs.right and args.inputs.up
-    args.state.player.x += args.state.player.speed / 2
-    args.state.player.y += args.state.player.speed / 2
-  end
-
-  if args.inputs.right and args.inputs.down
-    args.state.player.x += args.state.player.speed / 2
-    args.state.player.y -= args.state.player.speed / 2
-  end
-
-  if args.inputs.left
-    args.state.player.x -= args.state.player.speed
-  elsif args.inputs.right
-    args.state.player.x += args.state.player.speed
-  end
-
-  if args.inputs.up
-    args.state.player.y += args.state.player.speed
-  elsif args.inputs.down
-    args.state.player.y -= args.state.player.speed
-  end
-
-  if args.state.player.x + args.state.player.w > args.grid.w
-    args.state.player.x = args.grid.w - args.state.player.w
-  end
-  
-  if args.state.player.x < 0
-    args.state.player.x = 0
-  end
-
-  if args.state.player.y + args.state.player.h > args.grid.h
-    args.state.player.y = args.grid.h - args.state.player.h
-  end
-
-  if args.state.player.y < 0
-    args.state.player.y = 0
-  end
+  handle_player_movement(args)
 
   if fire_input?(args)
     args.state.fireballs << {

@@ -443,3 +443,4 @@ line 265:10: syntax error, unexpected end of file, expecting keyword_end
 ? 000777 [Engine] RNG seed has been set to 1672928969.
 ? 000835 [Engine] RNG seed has been set to 1672928969.
 ? 000869 [Engine] RNG seed has been set to 1672928969.
+* 002813 [Engine] Logging shutting down

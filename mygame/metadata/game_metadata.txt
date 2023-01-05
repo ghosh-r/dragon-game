@@ -1,6 +1,6 @@
 # Remove the pound sign and leading space for the properties below before publishing your game.
-ritog=myname
-Rito Ghosh=My Name
+devid=ritog
+devtitle=Rito Ghosh
 gameid=silly-dragon-target
 gametitle=Silly Dragon Target Game
 version=0.3

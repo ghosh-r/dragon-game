@@ -1,9 +1,9 @@
 # Remove the pound sign and leading space for the properties below before publishing your game.
-# devid=myname
-# devtitle=My Name
-# gameid=mygame
-# gametitle=My Game
-# version=0.1
+# ritog=myname
+# Rito Ghosh=My Name
+# gameid=silly-dragon-target
+# gametitle=Silly Dragon Target Game
+# version=0.3-alpha
 # icon=metadata/icon.png
 
 # === Flags available at all licensing tiers ===

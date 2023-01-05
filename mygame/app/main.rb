@@ -1,4 +1,44 @@
 FPS = 60
+HIGH_SCORE_FILE = 'high-score.txt'
+
+def title_stuff(args)
+  if fire_input?(args)
+    args.outputs.sounds << 'sounds/game-over.wav'
+    args.state.scene = 'gameplay'
+    return
+  end
+
+  labels = []
+
+  labels << {
+    x: 40,
+    y: args.grid.h - 40,
+    text: 'Silly Dragon Target Game',
+    size_enum: 6,
+  }
+  labels << {
+    x: 40,
+    y: args.grid.h - 88,
+    text: 'Hit the targets!'
+  }
+  labels << {
+    x: 40,
+    y: args.grid.h - 120,
+    text: 'by Rito Ghosh'
+  }
+  labels << {
+    x: 40,
+    y: 120,
+    text: "Arrows or WASD to move | Z or J to fire"
+  }
+  labels << {
+    x: 40,
+    y: 80,
+    text: "Fire to start",
+    size_enum: 2,
+  }
+  args.outputs.labels << labels
+end
 
 def spawn_target(args)
   size = 64
@@ -66,8 +106,6 @@ def handle_player_movement(args)
     args.state.player.y = 0
   end
 end
-
-HIGH_SCORE_FILE = 'high-score.txt'
 
 def game_over_stuff(args)
   args.state.high_score ||= args.gtk.read_file(HIGH_SCORE_FILE).to_i
@@ -222,7 +260,7 @@ def tick args
     args.audio[:music] = { input: 'sounds/flight.ogg', looping: true }
   end
 
-  args.state.scene ||= 'gameplay'
+  args.state.scene ||= 'title'
 
   send("#{args.state.scene}_stuff", args)
 

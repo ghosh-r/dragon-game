@@ -1,0 +1,31 @@
+* 000000 Log started at 2023/1/5 20:21:24
+* 000000 This copy of the engine is git hash 70cd0b7d234544363972651eca364581f9fe0eb1, built on Nov 12 2022, at 04:34:30
+* 000000 Platform: Linux
+* 000000 
+* 000000 *******************************************************************************************
+* 000000 *** This is the Standard license build!                                                 ***
+* 000000 *** Get more with an Indie or Pro license such as C extensions, mobile dev, and VR dev! ***
+* 000000 *** Details at http://dragonruby.org/toolkit/game#purchase                              ***
+* 000000 *******************************************************************************************
+* 000000 
+- 000000 Starting publish for game in directory 'mygame'
+! 000000 Metadata file does not have all required fields!
+! 000000 Failed to load game metadata
+! 000000 
+! 000000 
+! 000000 We're having a problem with your game's metadata.
+! 000000 Please make sure that mygame/metadata/game_metadata.txt exists
+! 000000  and looks something like this:
+! 000000 
+! 000000 devid=myname
+! 000000 devtitle=My Name
+! 000000 gameid=mygame
+! 000000 gametitle=My Game
+! 000000 version=0.1
+! 000000 icon=metadata/icon.png
+! 000000 
+! 000000 
+! 000000 
+! 000000 Packaging failed!
+! 000000 
+* 000000 Logging shutting down

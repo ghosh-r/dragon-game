@@ -3,7 +3,7 @@
 # Rito Ghosh=My Name
 # gameid=silly-dragon-target
 # gametitle=Silly Dragon Target Game
-# version=0.3-alpha
+# version=0.3
 # icon=metadata/icon.png
 
 # === Flags available at all licensing tiers ===

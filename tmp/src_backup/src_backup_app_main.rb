@@ -72,6 +72,8 @@ HIGH_SCORE_FILE = 'high-score.txt'
 def game_over_stuff(args)
   args.state.high_score ||= args.gtk.read_file(HIGH_SCORE_FILE).to_i
 
+  args.state.timer -= 1
+
   if !args.state.saved_high_score && args.state.score > args.state.high_score
     args.gtk.write_file(HIGH_SCORE_FILE, args.state.score.to_s)
     args.state.saved_high_score = true
@@ -122,11 +124,7 @@ def game_over_stuff(args)
   end
 end
 
-def tick args
-  if args.state.tick_count == 1
-    args.audio[:music] = { input: 'sounds/flight.ogg', looping: true }
-  end
-
+def gameplay_stuff(args)
   args.outputs.solids << {
     x: 0,
     y: 0,
@@ -143,12 +141,11 @@ def tick args
     w: 100,
     h: 80,
     speed: 10,
-    path: 'sprites/misc/dragon-0.png'
   }
 
   player_sprite_index = 0.frame_index(count: 6, hold_for: 8, repeat: true)
   args.state.player.path = "sprites/misc/dragon-#{player_sprite_index}.png"
-
+  
   args.state.fireballs ||= []
 
   args.state.targets ||= [ spawn_target(args), spawn_target(args), spawn_target(args),
@@ -162,10 +159,7 @@ def tick args
   if args.state.timer == 0
     args.audio[:music].paused = true
     args.outputs.sounds << 'sounds/game-over.wav'
-  end
-
-  if args.state.timer < 0
-    game_over_stuff(args)
+    args.state.scene = 'game_over'
     return
   end
 
@@ -204,6 +198,7 @@ def tick args
 
   args.outputs.sprites << [args.state.player, args.state.fireballs, args.state.targets]
   args.outputs.labels << args.state.fireballs
+  
   labels = []
   labels << {
     x: 40,
@@ -219,8 +214,18 @@ def tick args
     size_enum: 2,
     alignment_enum: 2,
   }
-  args.outputs.labels << labels
-  
+  args.outputs.labels << labels  
+end
+
+def tick args
+  if args.state.tick_count == 1
+    args.audio[:music] = { input: 'sounds/flight.ogg', looping: true }
+  end
+
+  args.state.scene ||= 'gameplay'
+
+  send("#{args.state.scene}_stuff", args)
+
 end
 
 $gtk.reset
